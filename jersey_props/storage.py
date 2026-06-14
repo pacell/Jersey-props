@@ -40,6 +40,13 @@ def load_sold(stem: str = "sold_2m_plus") -> List[SoldProperty]:
         return [SoldProperty(**row) for row in json.load(f)]
 
 
+def load_enriched_rows(stem: str = "sold_2m_plus_enriched") -> List[dict]:
+    """Load the enriched dataset back as plain dict rows (as written to JSON)."""
+    json_path = os.path.join(config.DATA_DIR, f"{stem}.json")
+    with open(json_path, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def save_enriched(records: List[EnrichedProperty], stem: str = "sold_2m_plus_enriched") -> tuple[str, str]:
     json_path = os.path.join(config.DATA_DIR, f"{stem}.json")
     csv_path = os.path.join(config.DATA_DIR, f"{stem}.csv")
