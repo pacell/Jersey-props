@@ -1,5 +1,7 @@
 __pycache__/
 *.pyc
+# Derived geocoding cache (rebuilt on demand; can be large)
+data/geocode_cache.json
 .venv/
 venv/
 .DS_Store
