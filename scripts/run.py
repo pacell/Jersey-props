@@ -60,7 +60,7 @@ def cmd_enrich(args: argparse.Namespace) -> None:
     sold = storage.load_sold(stem=args.stem)
     if args.limit:
         sold = sold[: args.limit]
-    enriched = enrich_all(sold)
+    enriched = enrich_all(sold, use_wayback=args.wayback, use_live=args.live)
     json_path, csv_path = storage.save_enriched(enriched, stem=f"{args.stem}_enriched")
     print(f"\nSaved {len(enriched)} enriched records:")
     print(f"  {json_path}")
@@ -99,6 +99,10 @@ def main() -> None:
     e = sub.add_parser("enrich", help="Stage 2/3: cross-index against Wayback Machine")
     e.add_argument("--stem", default="sold_2m_plus")
     e.add_argument("--limit", type=int, default=None)
+    e.add_argument("--live", action="store_true",
+                   help="also detect current re-listings (present-day asking, noisy)")
+    e.add_argument("--wayback", action="store_true",
+                   help="also probe Wayback Availability API for first-listed dates")
     e.set_defaults(func=cmd_enrich)
 
     pr = sub.add_parser("probe", help="Report which archive backends are reachable")

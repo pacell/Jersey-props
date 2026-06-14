@@ -1,0 +1,89 @@
+{
+  "gaspe house|2025-02-28|83200000": {
+    "asking_price": 88850000,
+    "asking_price_display": "OIEO £88,850,000",
+    "source": "https://jerseyeveningpost.com/uncategorised/2018/11/06/record-breaking-sale-for-landmark-jersey-building/",
+    "notes": "Grade A office, 66-72 Esplanade (164,000 sqft, completed 2016). Marketed OIEO £88.85m; sold by Dandara, adviser CBRE. NB places.je dates this transaction 2025-02-28; JEP reported a ~£90m sale in 2018 — likely related share/asset transfers."
+  },
+  "the grove, st. lawrence|2025-12-05|38000000": {
+    "brochure_pdfs": [
+      "https://theislandwiki.org/index.php/The_Grove"
+    ],
+    "source": "https://www.bailiwickexpress.com/",
+    "notes": "Sold to Steve Morgan (Redrow founder) for £38m. Agent Fine & Country. No public guide price found."
+  },
+  "coline de lavande (formerly ‘wildwaysʼ)|2025-04-04|31500000": {
+    "brochure_pdfs": [
+      "https://cdl-jersey.co.uk/",
+      "https://search.savills.com/com/en/property-detail/gbjsrslac230209"
+    ],
+    "source": "https://cdl-jersey.co.uk/",
+    "notes": "Colline de Lavande (formerly 'Wildways'), ~15,000 sqft 'Mayfair' spec by Sir Winston Churchill Park. Savills 'Park Estate'. Dedicated marketing site."
+  },
+  "le vivier|2024-09-06|17000000": {
+    "asking_price": 19000000,
+    "asking_price_display": "£19,000,000",
+    "source": "https://www.onthemarket.com/details/12685470/",
+    "brochure_pdfs": [
+      "https://www.livingroomproperty.com/buy/property/2944"
+    ],
+    "notes": "Livingroom record sale. St Martin (Rozel), 22 acres, 12,158 sqft manor. Asking £19m (OnTheMarket) -> sold £17m."
+  },
+  "le val lodge (formerly sea view house),|2025-08-22|13000000": {
+    "brochure_pdfs": [
+      "https://issuu.com/livingroomestateagents/docs/le_val_lodge_brochure_2023_issuu"
+    ],
+    "source": "https://issuu.com/livingroomestateagents/docs/le_val_lodge_brochure_2023_issuu",
+    "notes": "Formerly 'Sea View House', St Brelade (Ouaisne bay), remodelled 2017. Livingroom brochure 2023; sold via Broadlands 2025."
+  },
+  "firstly, a certain house now known as eagle's rest (formerly  ...|2023-12-08|15100000": {
+    "asking_price": 16500000,
+    "asking_price_display": "£16,500,000",
+    "source": "https://www.priceypads.com/eagles-rest-16-5m-country-home-perched-above-st-aubins-bay-in-jersey-photos/",
+    "brochure_pdfs": [
+      "https://issuu.com/huntestates/docs/eagle_s_rest_-_brochure"
+    ],
+    "notes": "Above St Aubin's Bay, 10,885 sqft, 3 acres. Guide £16.5m (Hunt Estates/Fine & Country, brochure 2021) -> sold £15.1m."
+  },
+  "maison d'or|2022-06-24|21500000": {
+    "brochure_pdfs": [
+      "https://www.broadlandsjersey.com/property/maison-dor/"
+    ],
+    "source": "https://www.broadlandsjersey.com/property/maison-dor/",
+    "notes": "Above St Aubin's harbour. Marketed by Broadlands (Nigel Hurst) as 'finest property on the island'."
+  },
+  "baymont house (formerly called sivalai and before that corrie point), st. brelade|2026-05-08|8500000": {
+    "asking_price": 9950000,
+    "asking_price_display": "£9,950,000",
+    "source": "https://www.zoopla.co.uk/for-sale/details/70454189/",
+    "brochure_pdfs": [
+      "https://www.broadlandsjersey.com/property/baymont-house/",
+      "https://www.places.je/property/56894"
+    ],
+    "notes": "Formerly Sivalai / Corrie Point, St Brelade above St Aubin (5-bed, pool/gym). Guide £9.95m (Zoopla/Gaudin) -> sold £8.5m via Broadlands."
+  },
+  "clos de coleron, st. brelade|2025-11-21|8500000": {
+    "asking_price": 9900000,
+    "asking_price_display": "£9,900,000 (orig £12,500,000)",
+    "source": "https://www.zoopla.co.uk/for-sale/details/63384067/",
+    "brochure_pdfs": [
+      "https://www.broadlandsjersey.com/property/le-chemin-de-creux-st-brelade-je3/",
+      "https://www.livingroomproperty.com/buy/property/2764"
+    ],
+    "notes": "Le Chemin de Creux, St Brelade, 5 acres in coastal national park, Arthur Grayson design. Savills asked £12.5m, reduced to £9.9m -> sold £8.5m."
+  },
+  "st. mannelier with the cottage, st. saviour|2026-03-27|11492500": {
+    "brochure_pdfs": [
+      "https://search.savills.com/property-detail/gbjsrsjes230127"
+    ],
+    "source": "https://search.savills.com/property-detail/gbjsrsjes230127",
+    "notes": "St Saviour country house (5-bed, ~10 min from St Helier). Marketed by Savills."
+  },
+  "beau pré, st mary|2025-01-31|9250000": {
+    "brochure_pdfs": [
+      "https://www.livingroom.je/buy/property/115"
+    ],
+    "source": "https://www.livingroom.je/buy/property/115",
+    "notes": "St Mary, granite house dating to 1668, 2.2 acres, 7-bed. Marketed by Livingroom."
+  }
+}
