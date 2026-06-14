@@ -12,6 +12,7 @@
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--txt);
 font:15px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--accent)}
 header{position:sticky;top:0;z-index:1000;background:var(--bg);
 border-bottom:1px solid var(--line);padding:10px 12px 8px}
 h1{margin:0 0 8px;font-size:17px;font-weight:700}
@@ -22,44 +23,50 @@ color:var(--txt);border-radius:9px;font-size:14px;font-weight:600}
 .tabs button.on{background:var(--accent);color:#06283d;border-color:var(--accent)}
 .filters{display:flex;flex-wrap:wrap;gap:6px}
 .filters input,.filters select{background:var(--card);color:var(--txt);
-border:1px solid var(--line);border-radius:8px;padding:8px;font-size:14px;min-width:0}
+border:1px solid var(--line);border-radius:8px;padding:9px;font-size:14px;min-width:0}
 #q{flex:1 1 100%}
-.filters select,.price{flex:1 1 30%}
+.filters select{flex:1 1 30%}
 .toggles{display:flex;gap:6px;flex:1 1 100%;flex-wrap:wrap}
 .toggles label{flex:1;display:flex;align-items:center;justify-content:center;gap:5px;
 background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px;font-size:12px;color:var(--mut)}
 .toggles input{accent-color:var(--accent)}
-#count{color:var(--mut);font-size:12px;padding:6px 12px 0}
+.sub{display:flex;gap:10px;align-items:center;padding:6px 12px 0;color:var(--mut);font-size:12px}
+.sub select{background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:6px}
 main{padding:8px 10px 60px}
-#map{height:calc(100vh - 230px);border-radius:12px;overflow:hidden}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;
-padding:11px 12px;margin-bottom:9px}
-.card .top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
-.card .nm{font-weight:600;font-size:14px}
-.card .pa{color:var(--mut);font-size:12px;margin-top:2px}
+#map{height:calc(100vh - 250px);min-height:320px;border-radius:12px;overflow:hidden}
+.card{display:flex;gap:10px;background:var(--card);border:1px solid var(--line);
+border-radius:12px;padding:10px;margin-bottom:9px}
+.thumb{flex:0 0 84px;width:84px;height:84px;border-radius:9px;object-fit:cover;background:var(--card2)}
+.thumb.ph{display:flex;align-items:center;justify-content:center;font-size:26px;color:#3b4a61}
+.body{flex:1;min-width:0}
+.top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.nm{font-weight:600;font-size:14px;line-height:1.25}
+.pa{color:var(--mut);font-size:12px;margin-top:2px}
 .sold{font-weight:700;font-size:15px;white-space:nowrap}
-.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
 .chip{font-size:11px;padding:3px 7px;border-radius:20px;background:var(--card2);color:var(--mut)}
 .chip.ask{color:var(--txt)}
-.disc{font-weight:700}
-.disc.dn{color:var(--bad)} .disc.up{color:var(--good)}
+.disc{font-weight:700}.disc.dn{color:var(--bad)}.disc.up{color:var(--good)}
 .sea{color:var(--accent)}
-a{color:var(--accent)}
-.brl{display:inline-block;margin-top:8px;font-size:12px;font-weight:600;
-background:var(--card2);padding:6px 10px;border-radius:8px;text-decoration:none;margin-right:6px}
-.sort{display:flex;gap:6px;align-items:center;padding:0 12px 6px;color:var(--mut);font-size:12px}
-.sort select{background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:6px}
-.leaflet-popup-content{font-size:13px}
+.links{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
+.btn{font-size:12px;font-weight:600;background:var(--card2);padding:6px 10px;border-radius:8px;
+text-decoration:none;color:var(--txt)}
+.btn.go{background:var(--accent);color:#06283d}
 dialog{background:var(--card);color:var(--txt);border:1px solid var(--line);
-border-radius:14px;max-width:92vw;width:440px;padding:0}
+border-radius:14px;max-width:94vw;width:460px;padding:0}
 dialog::backdrop{background:rgba(0,0,0,.6)}
-.dlg{padding:16px}
-.dlg h2{margin:0 0 4px;font-size:16px}
-.dlg .row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--line);font-size:13px}
-.dlg .row span:first-child{color:var(--mut)}
-.dlg .notes{margin-top:10px;font-size:12px;color:var(--mut);line-height:1.5}
-.x{position:absolute;top:8px;right:12px;font-size:22px;color:var(--mut);background:none;border:0}
+.dlg{padding:0 16px 16px}
+.hero{width:100%;height:200px;object-fit:cover;border-radius:14px 14px 0 0;display:block;background:var(--card2)}
+.dlg h2{margin:12px 0 2px;font-size:16px}
+.row{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);font-size:13px}
+.row span:first-child{color:var(--mut)}
+.notes{margin-top:10px;font-size:12px;color:var(--mut);line-height:1.5}
+.x{position:absolute;top:6px;right:10px;font-size:26px;color:#fff;background:rgba(0,0,0,.45);
+border:0;border-radius:50%;width:34px;height:34px;line-height:1}
+#count{margin-left:auto}
 .hidden{display:none}
+.leaflet-popup-content{font-size:13px;margin:8px}
+.leaflet-popup-content img{width:100%;height:90px;object-fit:cover;border-radius:6px;margin-bottom:4px}
 </style>
 </head>
 <body>
@@ -72,8 +79,20 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
   <div class="filters">
     <input id="q" placeholder="Search name, road, agent…" oninput="render()"/>
     <select id="parish" onchange="render()"><option value="">All parishes</option></select>
-    <input class="price" id="min" type="number" inputmode="numeric" placeholder="Min £m" step="0.5" oninput="render()"/>
-    <input class="price" id="max" type="number" inputmode="numeric" placeholder="Max £m" step="0.5" oninput="render()"/>
+    <select id="band" onchange="render()">
+      <option value="0">Any price</option>
+      <option value="2000000">£2m+</option>
+      <option value="3000000">£3m+</option>
+      <option value="5000000">£5m+</option>
+      <option value="10000000">£10m+</option>
+      <option value="20000000">£20m+</option>
+    </select>
+    <select id="sortby" onchange="render()">
+      <option value="date">Newest</option>
+      <option value="price">Price ↓</option>
+      <option value="pricea">Price ↑</option>
+      <option value="disc">Biggest discount</option>
+    </select>
     <div class="toggles">
       <label><input type="checkbox" id="sea" onchange="render()"/> Sea view</label>
       <label><input type="checkbox" id="broch" onchange="render()"/> Brochure</label>
@@ -81,16 +100,7 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
     </div>
   </div>
 </header>
-<div class="sort">
-  Sort
-  <select id="sortby" onchange="render()">
-    <option value="date">Newest</option>
-    <option value="price">Price ↓</option>
-    <option value="pricea">Price ↑</option>
-    <option value="disc">Biggest discount</option>
-  </select>
-  <span id="count"></span>
-</div>
+<div class="sub"><span id="count"></span></div>
 <main>
   <div id="list"></div>
   <div id="map" class="hidden"></div>
@@ -102,26 +112,28 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
 <script>
 let DATA=[], map=null, layer=null, mapReady=false;
 const $=id=>document.getElementById(id);
-const fmt=n=>n==null?"—":"£"+Number(n).toLocaleString();
 const dlg=$("dlg");
+const fmt=n=>n==null?"—":"£"+Number(n).toLocaleString();
+const esc=s=>(s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dom=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch(e){return "link"}};
 
 fetch("data.json").then(r=>r.json()).then(d=>{
-  DATA=d.properties;
+  DATA=d.properties||[];
   $("sub").textContent=`· ${d.count} sales · ${d.generated}`;
-  const ps=[...new Set(DATA.map(p=>p.parish).filter(Boolean))].sort();
-  ps.forEach(p=>{const o=document.createElement("option");o.value=o.textContent=p;$("parish").appendChild(o)});
+  [...new Set(DATA.map(p=>p.parish).filter(Boolean))].sort().forEach(p=>{
+    const o=document.createElement("option");o.value=o.textContent=p;$("parish").appendChild(o);});
   render();
-});
+}).catch(e=>{$("list").innerHTML="<p style='color:var(--bad)'>Couldn't load data.json — make sure it sits next to index.html.</p>";});
 
 function filtered(){
   const q=$("q").value.toLowerCase().trim();
-  const par=$("parish").value, mn=parseFloat($("min").value), mx=parseFloat($("max").value);
+  const par=$("parish").value, band=+$("band").value;
   const sea=$("sea").checked, br=$("broch").checked, ak=$("ask").checked;
   let r=DATA.filter(p=>{
-    if(q && !((p.name+" "+p.address+" "+p.agent).toLowerCase().includes(q))) return false;
+    if(q){const hay=[p.name,p.address,p.parish,p.agent].filter(Boolean).join(" ").toLowerCase();
+      if(!hay.includes(q)) return false;}
     if(par && p.parish!==par) return false;
-    if(!isNaN(mn) && (p.sale_price||0) < mn*1e6) return false;
-    if(!isNaN(mx) && (p.sale_price||0) > mx*1e6) return false;
+    if(band && (p.sale_price||0) < band) return false;
     if(sea && !p.sea_view) return false;
     if(br && !(p.brochures&&p.brochures.length)) return false;
     if(ak && p.asking_price==null) return false;
@@ -130,58 +142,81 @@ function filtered(){
   const s=$("sortby").value;
   r.sort((a,b)=> s==="price"?(b.sale_price||0)-(a.sale_price||0)
     : s==="pricea"?(a.sale_price||0)-(b.sale_price||0)
-    : s==="disc"?((a.discount_pct??999)-(b.discount_pct??999))
-    : (b.sale_date||"").localeCompare(a.sale_date||""));
+    : s==="disc"?((a.discount_pct==null?999:a.discount_pct)-(b.discount_pct==null?999:b.discount_pct))
+    : String(b.sale_date||"").localeCompare(String(a.sale_date||"")));
   return r;
 }
 
 function discChip(p){
   if(p.discount_pct==null) return "";
-  const d=p.discount_pct, cls=d<0?"dn":"up";
-  return `<span class="chip disc ${cls}">${d>0?"+":""}${d.toFixed(0)}% vs ask</span>`;
+  const d=p.discount_pct;
+  return `<span class="chip disc ${d<0?"dn":"up"}">${d>0?"+":""}${d.toFixed(0)}% vs ask</span>`;
 }
-function metaChips(p){
+function chips(p){
   let c=[];
-  if(p.asking_price!=null||p.asking_display) c.push(`<span class="chip ask">ask ${p.asking_display||fmt(p.asking_price)}</span>`);
+  if(p.asking_display||p.asking_price!=null) c.push(`<span class="chip ask">ask ${esc(p.asking_display||fmt(p.asking_price))}</span>`);
   c.push(discChip(p));
   if(p.size_sqft) c.push(`<span class="chip">${p.size_sqft.toLocaleString()} sqft</span>`);
   if(p.bedrooms) c.push(`<span class="chip">${p.bedrooms} bed</span>`);
   if(p.sea_view) c.push(`<span class="chip sea">🌊 sea</span>`);
-  if(p.agent) c.push(`<span class="chip">${p.agent}</span>`);
-  return c.join("");
+  if(p.agent) c.push(`<span class="chip">${esc(p.agent)}</span>`);
+  return c.filter(Boolean).join("");
 }
+function thumb(p){
+  return p.image ? `<img class="thumb" loading="lazy" src="${esc(p.image)}" onerror="this.replaceWith(ph())"/>`
+                 : `<div class="thumb ph">🏠</div>`;
+}
+function ph(){const d=document.createElement("div");d.className="thumb ph";d.textContent="🏠";return d;}
 
 function render(){
   const r=filtered();
-  $("count").textContent=`${r.length} shown`;
-  $("list").innerHTML=r.map((p,i)=>`
+  $("count").textContent=`${r.length} of ${DATA.length}`;
+  $("list").innerHTML=r.map(p=>`
     <div class="card" onclick="detail(${DATA.indexOf(p)})">
-      <div class="top">
-        <div><div class="nm">${esc(p.name)}</div>
-          <div class="pa">${esc(p.address||p.parish)} · ${p.sale_date||""}</div></div>
-        <div class="sold">${p.sale_display||fmt(p.sale_price)}</div>
+      ${thumb(p)}
+      <div class="body">
+        <div class="top">
+          <div><div class="nm">${esc(p.name)}</div>
+            <div class="pa">${esc(p.address||p.parish)} · ${esc(p.sale_date)}</div></div>
+          <div class="sold">${esc(p.sale_display||fmt(p.sale_price))}</div>
+        </div>
+        <div class="meta">${chips(p)}</div>
+        <div class="links">
+          ${p.listing_url?`<a class="btn go" href="${esc(p.listing_url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">View listing</a>`:""}
+          ${(p.brochures||[]).slice(0,1).map(u=>`<a class="btn" href="${esc(u)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">📄 Brochure</a>`).join("")}
+        </div>
       </div>
-      <div class="meta">${metaChips(p)}</div>
-      ${(p.brochures||[]).slice(0,1).map(u=>`<a class="brl" href="${u}" target="_blank" rel="noopener" onclick="event.stopPropagation()">📄 Brochure</a>`).join("")}
     </div>`).join("") || `<p style="color:var(--mut);text-align:center;margin-top:40px">No matches.</p>`;
   if(mapReady) drawMap(r);
 }
 
 function detail(i){
   const p=DATA[i];
-  const w3w=p.what3words?`<div class="row"><span>what3words</span><span><a href="https://what3words.com/${p.what3words}" target="_blank">///${p.what3words}</a></span></div>`:"";
-  $("dlgc").innerHTML=`<h2>${esc(p.name)}</h2>
-    <div class="pa" style="color:var(--mut);font-size:12px;margin-bottom:8px">${esc(p.address||"")} · ${p.parish}</div>
-    <div class="row"><span>Sold</span><span><b>${p.sale_display||fmt(p.sale_price)}</b> · ${p.sale_date||"—"}</span></div>
-    <div class="row"><span>Asking</span><span>${p.asking_display||fmt(p.asking_price)}</span></div>
-    <div class="row"><span>Discount</span><span>${p.discount_pct==null?"—":p.discount_pct.toFixed(1)+"%"}</span></div>
-    <div class="row"><span>Agent</span><span>${p.agent||"—"}</span></div>
-    <div class="row"><span>Size</span><span>${p.size_sqft?p.size_sqft.toLocaleString()+" sqft":"—"}${p.acres?` · ${p.acres} ac`:""}</span></div>
-    <div class="row"><span>Beds / Baths</span><span>${p.bedrooms||"—"} / ${p.bathrooms||"—"}</span></div>
-    <div class="row"><span>Sea view</span><span>${p.sea_view?"🌊 yes":"—"}</span></div>
-    ${w3w}
-    ${(p.brochures||[]).map(u=>`<a class="brl" href="${u}" target="_blank" rel="noopener">📄 ${dom(u)}</a>`).join("")}
-    ${p.notes?`<div class="notes">${esc(p.notes)}</div>`:""}`;
+  const link=(u,t)=>`<a class="btn" href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
+  const rows=[
+    ["Sold",`<b>${esc(p.sale_display||fmt(p.sale_price))}</b> · ${esc(p.sale_date||"—")}`],
+    ["Asking",esc(p.asking_display||fmt(p.asking_price))],
+    ["Discount",p.discount_pct==null?"—":p.discount_pct.toFixed(1)+"% vs ask"],
+    ["First listed",esc(p.first_listed||"—")],
+    ["Agent",esc(p.agent||"—")],
+    ["Size",p.size_sqft?p.size_sqft.toLocaleString()+" sqft"+(p.acres?` · ${p.acres} ac`:""):(p.acres?p.acres+" ac":"—")],
+    ["Beds / Baths",`${p.bedrooms||"—"} / ${p.bathrooms||"—"}`],
+    ["Sea view",p.sea_view?"🌊 yes":"—"],
+    ["Parish",esc(p.parish||"—")],
+  ];
+  if(p.what3words) rows.push(["what3words",`<a href="https://what3words.com/${esc(p.what3words)}" target="_blank">///${esc(p.what3words)}</a>`]);
+  const links=[
+    p.listing_url?link(p.listing_url,"🔗 View listing"):"",
+    ...(p.brochures||[]).map(u=>link(u,"📄 "+dom(u))),
+    `<a class="btn" href="https://www.google.com/maps?q=${p.lat},${p.lng}" target="_blank">📍 Map</a>`
+  ].filter(Boolean).join("");
+  $("dlgc").innerHTML=
+    (p.image?`<img class="hero" src="${esc(p.image)}" onerror="this.style.display='none'"/>`:"")+
+    `<h2>${esc(p.name)}</h2>
+     <div class="pa" style="margin-bottom:6px">${esc(p.address||"")}</div>
+     ${rows.map(([k,v])=>`<div class="row"><span>${k}</span><span>${v}</span></div>`).join("")}
+     <div class="links" style="margin-top:12px">${links}</div>
+     ${p.notes?`<div class="notes">${esc(p.notes)}</div>`:""}`;
   dlg.showModal();
 }
 
@@ -193,28 +228,28 @@ function show(t){
   if(t==="map") initMap();
 }
 function initMap(){
-  if(map){map.invalidateSize();return;}
+  if(map){map.invalidateSize();drawMap(filtered());return;}
   map=L.map("map").setView([49.21,-2.13],11);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
     {maxZoom:19,attribution:"© OpenStreetMap"}).addTo(map);
   layer=L.layerGroup().addTo(map); mapReady=true; drawMap(filtered());
 }
-function radius(p){const v=p.sale_price||2e6;return Math.max(5,Math.min(26,Math.sqrt(v/1e6)*4))}
+const radius=p=>Math.max(5,Math.min(26,Math.sqrt((p.sale_price||2e6)/1e6)*4));
 function drawMap(r){
   layer.clearLayers();
   r.forEach(p=>{
-    if(p.lat==null)return;
+    if(p.lat==null) return;
     const m=L.circleMarker([p.lat,p.lng],{radius:radius(p),
-      color:p.sea_view?"#38bdf8":"#f59e0b",weight:1,fillOpacity:.55});
-    m.bindPopup(`<b>${esc(p.name)}</b><br>${p.sale_display||fmt(p.sale_price)} · ${p.sale_date||""}`+
-      (p.asking_display?`<br>ask ${p.asking_display}`:"")+
-      (p.brochures&&p.brochures.length?`<br><a href="${p.brochures[0]}" target="_blank">Brochure</a>`:""));
-    m.on("click",()=>{});
+      color:p.sea_view?"#38bdf8":"#f59e0b",weight:1,fillColor:p.sea_view?"#38bdf8":"#f59e0b",fillOpacity:.55});
+    m.bindPopup(
+      (p.image?`<img src="${esc(p.image)}">`:"")+
+      `<b>${esc(p.name)}</b><br>${esc(p.sale_display||fmt(p.sale_price))} · ${esc(p.sale_date||"")}`+
+      (p.asking_display?`<br>ask ${esc(p.asking_display)}`:"")+
+      (p.listing_url?`<br><a href="${esc(p.listing_url)}" target="_blank">View listing</a>`:
+        (p.brochures&&p.brochures.length?`<br><a href="${esc(p.brochures[0])}" target="_blank">Brochure</a>`:"")));
     layer.addLayer(m);
   });
 }
-function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
-function dom(u){try{return new URL(u).hostname.replace("www.","")}catch(e){return "link"}}
 </script>
 </body>
 </html>

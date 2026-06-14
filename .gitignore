@@ -5,3 +5,5 @@ data/geocode_cache.json
 .venv/
 venv/
 .DS_Store
+# Derived listing image/coords cache
+data/source_meta_cache.json
