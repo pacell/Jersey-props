@@ -1550,16 +1550,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 4,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3950000,
+    "asking_price_display": "£3,950,000",
+    "asking_price_source": "https://www.onthemarket.com/details/17016633/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -150000,
+    "price_delta_pct": "-3.8",
+    "brochure_pdfs": "https://alto-live.s3.amazonaws.com/prIaQoEiboqXwuBVF-vlRnde-Go/Cu7peaZN4rzfjAL8AuZcZ7RiXnM/Brochure/%5B0%5D/JdblBdVKiU-tNstNb78Oyw.pdf",
+    "notes": "3 Miramar, Le Mont Gras D'Eau, St Brelade, JE3 8ED. Sold by Fine & Country 2025-06-13 for £3,800,000. Listed as last remaining of three ultra-modern new detached homes, asking £3,950,000, 4 bedrooms all en-suite, 3,323 sq ft. Overlooks St Brelade's Bay (sea view). Brochure PDF from alto-live S3. Also listed on Rightmove https://www.rightmove.co.uk/properties/161358911 and OnTheMarket https://www.onthemarket.com/details/17016633/"
   },
   {
     "name": "Ladies Walk (formerly 'Rectory Farm')",
@@ -1581,7 +1581,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Ladies Walk (formerly Rectory Farm), La Rue du Motier, St Mary. No agent listed. No public listing or brochure found. Sold £6,200,000 May 2025. Address: La Rue du Motier, St Mary, JE3 3BZ area."
   },
   {
     "name": "Apartment 4, One St Brelade",
@@ -1594,16 +1594,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 5,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3950000,
+    "asking_price_display": "£3,950,000",
+    "asking_price_source": "https://search.savills.com/property-detail/gbjsrsjes250023",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -200000,
+    "price_delta_pct": "-5.1",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Apartment 4, One St Brelade, La Route de Noirmont / Le Mont Gras D'Eau, St Brelade, JE3 8ED. Sold by Savills 2025-05-08 for £3,750,000. Savills reference GBJSRSJES250023 (La Rue Du Haut / One St Brelade area). Search snippet mentions 230.03 sq m (2,476 sq ft) and guide price £3,950,000 for One St Brelade apartment. Apartment 4 is First Floor, 3 bedrooms per floor plan. Development overlooks St Brelade's Bay."
   },
   {
     "name": "Mon Bel",
@@ -1616,16 +1616,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 5,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 7999995,
+    "asking_price_display": "£7,999,995",
+    "asking_price_source": "https://www.onthemarket.com/details/3035169/ | https://search.savills.com/com/en/property-detail/gbjsrsjes160123",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -2599995,
+    "price_delta_pct": "-32.5",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Mon Bel, La Rue des Aix, St Peter JE3 7ZE. Sold May 2025 for £5,400,000. Savills. Guide price £7,999,995. 6 beds, 16,194 sq ft (including cottage), 11 acres. Separate 4-bed cottage. Rural St Peter, no sea view mentioned."
   },
   {
     "name": "Ensign House",
@@ -1647,7 +1647,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "29 and 31 Seaton Place, St Helier. No agent listed. Likely commercial/mixed-use. No public listing or asking price found. Sold £8,000,000 May 2025."
   },
   {
     "name": "La Haule Residential Home",
@@ -1669,7 +1669,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial care home sale at La Route de l'Isle, St Brelade. La Haule is operated by brighterkind (Four Seasons Care Homes). No public asking price or residential listing found. Likely traded as a care home going concern."
   },
   {
     "name": "Silver Springs Care Home",
@@ -1691,7 +1691,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial care home sale at La Route Des Genets, St Brelade. Silver Springs is a Four Seasons/brighterkind nursing and residential care home. No residential listing or asking price found. Likely traded as a going-concern business/property package."
   },
   {
     "name": "Anne Port Farm",
@@ -1704,16 +1704,16 @@
     "agent": "Hunt Estates",
     "agent_slug": "hunt-estates",
     "source_page": 5,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 14000000,
+    "asking_price_display": "£14,000,000",
+    "asking_price_source": "https://www.onthemarket.com/details/14047008/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -3750000,
+    "price_delta_pct": "-26.8",
+    "brochure_pdfs": "https://issuu.com/huntestates/docs/anne_port_option_g",
+    "notes": "Granite-faced residence built 1970 on 16 acres at Anne Port Bay, St Martin, on market for first time in 50 years. Total 13,050 sq ft (main house, cottage & summer house). 6 bed main house + 3-bed detached cottage. Spectacular sea views towards France. Marketed by Hunt Estates (Christie's). Asked £14m; sold Apr 2025 for £10.25m. Issuu brochure: issuu.com/huntestates/docs/anne_port_option_g."
   },
   {
     "name": "Unit 1 Vent DʼEte",
@@ -1756,8 +1756,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES150036/JES150036_JES22000533.PDF",
+    "notes": "Eventide, La Rue Du Grouet, St Brelade JE3 8HL. Sold Apr 2025 for £5,000,000. Savills listing JES150036. Brochure PDF found at assets.savills.com (image-only). Modern Scottish Larch-clad home on southwest coast. Panoramic sea views. Self-contained 2-bed ground floor flat. No asking price extracted."
   },
   {
     "name": "Coline de Lavande (formerly ‘Wildwaysʼ)",
@@ -1845,7 +1845,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Agent: Hunt Estates. Address: Le Mont De La Greve De Lecq, St. Ouen, JE3 2DT. Leoville is a historically significant early property in Jersey (Grade listed). No active listing found on Hunt Estates website at time of search. No brochure PDF found."
   },
   {
     "name": "Le Cotil (formerly known as ‘Hillside’), St Brelade",
@@ -1858,16 +1858,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 5,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "asking_price": 3650000,
+    "asking_price_display": "£3,650,000",
+    "asking_price_source": "https://www.rightmove.co.uk/properties/159669980 | https://assets.savills.com/properties/GBJSRSJES230152/JES230152_JES23001115.PDF | https://www.zoopla.co.uk/for-sale/details/65348885/",
+    "first_listed_iso": "2025-03-20",
+    "first_listed_source": "https://www.rightmove.co.uk/properties/159669980 | https://assets.savills.com/properties/GBJSRSJES230152/JES230152_JES23001115.PDF | https://www.zoopla.co.uk/for-sale/details/65348885/",
+    "days_on_market": -6,
+    "price_delta": -150000,
+    "price_delta_pct": "-4.1",
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES230152/JES230152_JES23001115.PDF",
+    "notes": "Le Cotil (formerly Hillside), Le Mont De La Rocque, St Brelade, JE3 8BQ. Listed by Savills Jersey at £3,650,000 (ref JES230152, first listed on Rightmove 20/03/2025). 4 beds, 4 baths, 2,761 sqft. Panoramic sea views over St Aubin's Bay. Property was also listed earlier as JES230005. Sold 2025-03-14 at £3.5m — original ask was £3.65m, slight reduction confirmed."
   },
   {
     "name": "Noirmont Farm",
@@ -1889,7 +1889,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Extraordinary new build on Noirmont headland, St Brelade, ~5,300 sq ft. Marketed by Livingroom (agent listed as Broadlands in source data). Issuu brochure found but no asking price visible. Sea views likely given headland location at Portlet."
   },
   {
     "name": "27 – 28 Esplanade and 3 La Rue des Mielles",
@@ -1911,7 +1911,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial office/building transaction in St Helier Financial District. 27-28 Esplanade is the JTC House office building. No residential asking price or brochure found. Appears to be a commercial property transfer."
   },
   {
     "name": "Gaspe House",
@@ -1955,7 +1955,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial building at 17.5 Esplanade, St Helier. SG Hambros (SG Kleinwort Hambros Bank) operated from Esplanade offices. Sold Feb 2025 for £9m. No public asking price or commercial listing brochure found."
   },
   {
     "name": "SUPANA (formerly known as Glenroyd)",
@@ -1968,16 +1968,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 5,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "asking_price": 4995000,
+    "asking_price_display": "£4,995,000",
+    "asking_price_source": "https://www.zoopla.co.uk/for-sale/details/69451547/",
+    "first_listed_iso": "2025-09-23",
+    "first_listed_source": "https://www.zoopla.co.uk/for-sale/details/69451547/",
+    "days_on_market": -221,
+    "price_delta": -745000,
+    "price_delta_pct": "-14.9",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Grande Route des Sablons, Grouville. Agent: Savills Jersey. 4-bed, 5,754 sqft, panoramic ocean views with private beach access. Asking £4,995,000 (Zoopla). Sold Feb 2025 for £4,250,000. Note: Zoopla first listed date shown as Sept 2025 — may reflect re-listing; property sold Feb 2025 so listing pre-dates that."
   },
   {
     "name": "Treetops",
@@ -1999,7 +1999,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "4 Clos de la Ferme Rose, St Brelade JE3 8DE. Agent: Livingroom. 4 en-suite bedrooms, ~5,100 sqft, ceramic pool, 1 acre. Listed POA — price not publicly disclosed on Livingroom site. Sold Feb 2025 for £4,250,000."
   },
   {
     "name": "The Assembly Rooms, St Brelade",
@@ -2021,7 +2021,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Boulevard, St Brelade JE3 8AB. Agent: Broadlands. Commercial restaurant/hospitality venue — listed granite building, former banking hall renovated 2017, 60-cover bar/dining. OTM listing showed £1,750,000 for a Le Boulevard property but that may be a different/smaller unit. Sold Jan 2025 for £4,000,000. No confirmed asking price for this specific sale."
   },
   {
     "name": "1 Palm Drive, St Brelade",
@@ -2065,7 +2065,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Mont De La Rocque, St Brelade JE3 8BQ. Sold Jan 2025 for £5,500,000. Agent listed as Broadlands. Savills blog referenced 'POA' for a Cresta-like property on this road. Le Mont de La Rocque is elevated above St Aubin's Bay so sea views likely. No confirmed asking price found."
   },
   {
     "name": "Beau Pré, St Mary",
@@ -2109,7 +2109,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Gwithian, La Rue Voisin, St Brelade, JE3 8AT. Sold by Gaudin & Co 2025-01-17 for £3,650,000. Property name confirmed in ICIJ Offshore Leaks Database as existing at that address. No current Gaudin listing found (not on current St Brelade page). No asking price or brochure found."
   },
   {
     "name": "Chalet des Arbres, St Brelade",
@@ -2131,7 +2131,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Address: Le Mont Gras D'Eau, St Brelade, JE3 8ED. No agent listed. Described as modern mansion with panoramic sea views over St Brelade's Bay. Gaudin & Co mentioned as possible agent. No listing or brochure PDF found. Nearby Chateau des Roches (Savills JES230163) and One St Brelade developments are different properties."
   },
   {
     "name": "La Rochelle",
@@ -2144,16 +2144,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 6,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3650000,
+    "asking_price_display": "£3,650,000",
+    "asking_price_source": "OnTheMarket listing 15820373; Savills JES230067 (search.savills.com/je/en/property-detail/gbjsrsjes230067); TheHouseShop listing",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -325000,
+    "price_delta_pct": "-8.9",
+    "brochure_pdfs": "https://savills.fluxpro.io/Brochure/JES230067",
+    "notes": "La Rochelle, 1 Petite Route De Campagne, St Peter JE3 7LL. Extremely well-constructed modern property in prestigious gated development. Leicht kitchen, Miele appliances, pool, double garage. Asking price £3,650,000 (above sold price of £3,325,000 – reduction confirmed). Agent: Savills Jersey. Brochure URL is fluxpro.io (Savills brochure delivery system) – may redirect to PDF."
   },
   {
     "name": "La Sarsonnerie (formerly Don Farm), St John",
@@ -2175,7 +2175,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Farm/estate property in St John, sold Jan 2025 via Knight Frank Jersey for £9.6m. No public listing or asking price found. Wilsons Knight Frank (Jersey) likely handled the sale but no brochure surfaced."
   },
   {
     "name": "Charter Place, 25 27 Seaton Place, St Helier",
@@ -2196,8 +2196,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://d2re.co.uk/wp-content/uploads/2020/07/1st-Floor-Charter-Place-Brochure-3.pdf",
+    "notes": "Charter Place is a commercial office building at 23-27 Seaton Place, St Helier JE2 3QL. No residential asking price found. D2RE brochure PDF found for 1st Floor office suite (lettings, not sale). Whole-building sale price not publicly listed. Commercial property."
   },
   {
     "name": "Le Grand Clos De St Pierre and Le Jardin De Vibert, Saint Peter",
@@ -2219,7 +2219,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Grand Clos De St Pierre and Le Jardin De Vibert, St Peter. Sold Dec 2024 for £5,237,730. No agent listed. No address provided. Likely agricultural or complex land transaction. No public listing found."
   },
   {
     "name": "Clare House (formerly Randalls Brewery)",
@@ -2263,7 +2263,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Hotel L'Emeraude (formerly Sien Hall Hotel), St Saviour. Sold Dec 2024 for £5,250,000. No agent listed. Hotel/commercial property. Closed hotel used as farm worker accommodation. No estate agent listing found — likely sold off-market or as commercial asset."
   },
   {
     "name": "19 and 21 Broad Street",
@@ -2284,8 +2284,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://assets.savills.com/properties/8F5BE7A4-7E24-4465-ABB6-52FCE48AC339/19-21%20Broad%20Street,%20St%20Helier%20Jersey%20-%20Property%20Particulars.pdf",
+    "notes": "Commercial property. Address: 19 and 21 Broad Street, St. Helier. No agent listed in sale record. Savills property particulars PDF found but binary PDF not parseable to extract asking price. Likely commercial freehold."
   },
   {
     "name": "Roseneath with Roseneath Cottage",
@@ -2301,13 +2301,13 @@
     "asking_price": "",
     "asking_price_display": "",
     "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
+    "first_listed_iso": "2023-07-01",
+    "first_listed_source": "https://reside.je/property/roseneath-la-rue-de-fauvic-grouville-jersey/ ; https://search.savills.com/property-detail/gbjsrsjes240190",
+    "days_on_market": 517,
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Agent: Slomans (per sold data). Address: La Rue De Fauvic, Grouville, JE3 9BQ. Also appeared via Savills (JES240190) and Reside. Grade 3 listed early 19th century granite house + 1-bed cottage. Main house 296m2 + cottage 54m2 = ~3767 sqft total. 2023 tender closing 8 Apr OIEO £1,675,000 — likely relisted later at higher price before £3.1m sale. No Slomans brochure PDF found online. Note: sold price far exceeds 2023 OIEO, suggesting significant relisting or development value."
   },
   {
     "name": "1 Seaton Place",
@@ -2320,16 +2320,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 6,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 6800000,
+    "asking_price_display": "£6,800,000 (~7.675% net initial yield) — commercial investment",
+    "asking_price_source": "https://www.broadlandsjersey.com/property/1-seaton-place-offices/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -175000,
+    "price_delta_pct": "-2.6",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial office building in St Helier CBD. Purpose-built 4-storey office refurbished 2019. Marketed by Broadlands Commercial as investment at £6,800,000 (yield ~7.675%). Not residential. Sold £6,625,000 November 2024. Note: sold price slightly below asking."
   },
   {
     "name": "Highgrove House (formerly Cherry Garth)",
@@ -2364,16 +2364,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 6,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4750000,
+    "asking_price_display": "£4,750,000",
+    "asking_price_source": "https://www.broadlandsjersey.com/one-st-brelade/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -550000,
+    "price_delta_pct": "-11.6",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Apartment 7, One St Brelade, Le Mont Gras D'Eau, St Brelade JE3 8ED. Ground floor garden apartment with private wraparound terrace and private garden. Views over St Brelade's Bay. 3 bedroom suites, 2,357 sqft. Asking £4,750,000 per Broadlands site. Sold Nov 2024 for £4,200,000."
   },
   {
     "name": "Airlie",
@@ -2430,16 +2430,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 6,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4450000,
+    "asking_price_display": "£4,450,000",
+    "asking_price_source": "https://alexandercarmine.com/unlocking-the-door-to-jerseys-property-market-jersey-property-analysis-18th-october-2024/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -750000,
+    "price_delta_pct": "-16.9",
+    "brochure_pdfs": "https://alto2-live.s3.amazonaws.com/6rBv4E3rmSMssbAtJ2V389eMah4/u5eaM4Sa1y_mW7lIFd2S4I2p8vE/Brochure/%5B0%5D/sVjtBWLtV0Kui6YDehU_-Q.pdf",
+    "notes": "La Bourdonnerie, Rue de la Lourderie, St Clement. Sold by Fine & Country 2024-10-18 for £3,700,000. Asking price ~£4,450,000 per Alexander Carmine analysis and search snippets. 7 double bedrooms, detached 2-bed cottage, south-facing walled garden with heated pool, double garage with games room. Brochure PDF found via alto2-live S3 (Fine & Country Jersey). Also referenced on Issuu: https://issuu.com/factory/docs/gj185/s/23000099 (Gallery Jersey Aug/Sep 2022 at £3,800,000 — earlier listing price). Earlier OTM listing https://www.onthemarket.com/details/12325657/ shows different agent (Maillard & Co) at £3,250,000 — likely a different property or earlier incarnation."
   },
   {
     "name": "",
@@ -2571,7 +2571,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Hilary Street, St Helier — undivided share (fractional/commercial title). No agent listed. Likely a share transfer rather than marketed residential sale. No listing or brochure found."
   },
   {
     "name": "LE VALLON",
@@ -2593,7 +2593,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "LE VALLON, Le Mont Felard, St Lawrence — sold 2024-08-23 at £3.6m via Fine & Country. Abode2 video and Broadlands Jersey both reference Le Vallon in St Lawrence. Could not recover asking price or brochure from public sources."
   },
   {
     "name": "MAISON BLANCHE (formerly Chimera)",
@@ -2615,7 +2615,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Hunt Estates agent. Property on La Grande Route de la Baie de St Brelade. 6 bedroom contemporary family home in St Brelade's Bay. No public brochure PDF or asking price found via web search. Sold £7,407,500 August 2024."
   },
   {
     "name": "LE MANOIR DU FIEF ET SEIGNEURIE DE VINCHELEZ DE BAS",
@@ -2636,8 +2636,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES180078/JES180078_JES19000306.PDF",
+    "notes": "Vinchelez de Bas Manor, La Route de Vinchelez, St Ouen JE3 2DB. Sold Aug 2024 for £5,200,000. Savills exclusive (JES180180). Listed POA. 5 beds plus Coach House (~1,800 sq ft). ~10 acres. Regency Period Manor. Views of French coast. Earlier listing JES180078 brochure PDF found."
   },
   {
     "name": "UNDIVIDED HALF SHARE IN ST BERNARD",
@@ -2747,7 +2747,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Multi-parcel sale (manor + further lands); ~£5.95m guide was the manor alone — not comparable to £8.5m total."
   },
   {
     "name": "APARTMENT 8, ONE ST BRELADE",
@@ -2790,8 +2790,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://alto-live.s3.amazonaws.com/prIaQoEiboqXwuBVF-vlRnde-Go/Cu7peaZN4rzfjAL8AuZcZ7RiXnM/Brochure/%5B0%5D/3FOAj2xha0iuPJ0pgzMTUg.pdf",
+    "notes": "La Rue de la Grange / La Rue des Marais, St Mary, JE3 3AP. Sold Jul 2024 for £5,500,000. Fine & Country Jersey sole agent (ref FC023). Brochure PDF found on alto-live S3 (binary only). 6 bed rural family home, indoor pool. No asking price extracted from PDF."
   },
   {
     "name": "VAL RICHER",
@@ -2813,7 +2813,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "VAL RICHER, Le Mont de Rozel, St Martin JE3 6AN. Sold Jun 2024 for £5,400,000. Savills listing JES230034. Listed POA. 5 beds + penthouse guest suite. Cliff-top position with panoramic views of Rozel Bay and France. Direct beach access."
   },
   {
     "name": "LES RUISSEAUX LODGE (formerly Tree Tops and previously Malaya)",
@@ -2826,16 +2826,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 7,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 7950000,
+    "asking_price_display": "£7,950,000 guide price (Savills, JES230181); later listed at £11,950,000 on Portfolio by Savills",
+    "asking_price_source": "https://assets.savills.com/properties/GBJSRSJES230181/JES230181_JES23001352.PDF",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -450000,
+    "price_delta_pct": "-5.7",
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES230181/JES230181_JES23001352.PDF",
+    "notes": "4-bed contemporary coastal residence at Les Ruisseaux, JE3 8DD. Savills ref JES220194 (3-bed, £3.5m) appears to be a different property. JES230181 guide price £7,950,000; Portfolio page shows £11,950,000. Sold £7,500,000 June 2024. Sea view confirmed (panoramic). Agent Geri O'Brien at Savills."
   },
   {
     "name": "Chateau Haute Terre",
@@ -2857,7 +2857,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Chateau Haute Terre, La Rue Du Vard, St Lawrence, JE3 1FG. Marketed by Savills (ref JES210153). French Chateau-style country mansion, 6 bedroom suites, 4 reception rooms, indoor pool, cinema, 39 vergees (~17 acres). Savills PDF (JES210153) returned 410 Gone — listing removed. No asking price recovered. Sold £6,000,000 June 2024."
   },
   {
     "name": "Les Vaux",
@@ -2879,7 +2879,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Les Vaux, Le Mont les Vaux, St Brelade. Sold Jun 2024 for £3,250,000. Properties on Le Mont les Vaux typically list at £735k–£750k (smaller homes), so this is a much larger property – possibly a farm/estate. Fine & Country listing found for a 3-bed house on this road at £735k but is clearly a different, smaller property. No asking price or brochure found for this £3.25m sale."
   },
   {
     "name": "Apartment 2/5",
@@ -2914,16 +2914,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 8,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3550000,
+    "asking_price_display": "£3,550,000",
+    "asking_price_source": "Wilsons Knight Frank listing WILS3070 (wilsons.je); Livingroom listing 3551; search result snippet confirmed £3,550,000 asking price.",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -275000,
+    "price_delta_pct": "-7.7",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Manoir, 4 Les Beaux Champs, La Route d'Ebenezer, Trinity JE3. Elegant 6-bed 6-bath period-style detached home in exclusive gated enclave of 4 houses. Built 2020, top-floor suite added by current owners plus new pool, pool house, gym. Marketed by Wilsons Knight Frank (WILS3070) at £3,550,000 and also Livingroom (listing 3551). Sold May 2024 for £3,275,000 – below asking. Fine & Country also produced a Trinity Jersey Issuu brochure covering this development."
   },
   {
     "name": "Whitton Grange",
@@ -2936,16 +2936,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 8,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "asking_price": 6500000,
+    "asking_price_display": "£6,500,000",
+    "asking_price_source": "https://search.savills.com/je/en/property-detail/gbjsrsjes220203 | https://assets.savills.com/properties/GBJSRSJES220203/JES220203_JES23000337.PDF",
+    "first_listed_iso": "2022-01-01",
+    "first_listed_source": "https://search.savills.com/je/en/property-detail/gbjsrsjes220203 | https://assets.savills.com/properties/GBJSRSJES220203/JES220203_JES23000337.PDF",
+    "days_on_market": 853,
+    "price_delta": -1050000,
+    "price_delta_pct": "-16.2",
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES220203/JES220203_JES23000337.PDF",
+    "notes": "Whitton Grange, La Route Des Issues, St John JE3 4AF. Sold May 2024 for £5,450,000. Savills listing JES220203 at guide price £6,500,000. 7 beds (5-bed main house + 2-bed cottage), ~9,705 sq ft. Rural St John, no sea view mentioned."
   },
   {
     "name": "Les Landes House",
@@ -2988,8 +2988,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://assets.savills.com/properties/8F5BE7A4-7E24-4465-ABB6-52FCE48AC339/19-21%20Broad%20Street,%20St%20Helier%20Jersey%20-%20Property%20Particulars.pdf",
+    "notes": "Commercial hotel. Address: 53 Val Plaisant, St. Helier (formerly The Egremont). No agent listed in sale data. Hotel closed 2021. Site transferred between Les Amis and Andium Homes in complex deal. The Savills PDF listed is for 19-21 Broad Street (different property on same chunk), not Hampshire Hotel. No Hampshire Hotel asking price found."
   },
   {
     "name": "126-138 The Limes",
@@ -3011,7 +3011,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "126-138 The Limes, formerly Willow Court, Green Street, St Helier. Purchased by Les Amis Incorporated from Andium Homes Limited. Institutional/social housing transfer — no residential asking price or brochure found. Bailiwick Express records show £3,935,000 for a related Green Street transaction; sold price of £4,850,000 is from public register."
   },
   {
     "name": "Oaklands",
@@ -3024,16 +3024,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 8,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4950000,
+    "asking_price_display": "£4,950,000",
+    "asking_price_source": "https://www.onthemarket.com/details/3038968/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -390000,
+    "price_delta_pct": "-7.9",
+    "brochure_pdfs": "https://media.onthemarket.com/properties/5424453/1317333068/document-0.pdf https://assets.savills.com/properties/GBJSRSJES160087L/JES160087_JES19000523.PDF",
+    "notes": "La Rue du Coin Varin, St Peter JE3 7ZG. Agent: Savills Jersey. 6-bed granite country house plus three 1-bed cottages, ~3.5 acres. Asking price £4,950,000. Sold for £4,560,000."
   },
   {
     "name": "Villa de la Cote",
@@ -3046,16 +3046,16 @@
     "agent": "Knight Frank Jersey",
     "agent_slug": "wilsons",
     "source_page": 8,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3995000,
+    "asking_price_display": "£3,995,000",
+    "asking_price_source": "https://www.wilsons.je/properties.aspx (Wilsons Knight Frank / Knight Frank Jersey)",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -865000,
+    "price_delta_pct": "-21.7",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Formerly Erin Villa. Address: La Grande Route de la Cote, St. Clement. Agent: Knight Frank Jersey (Wilsons). Asking price £3,995,000; also seen at £3,550,000 on OnTheMarket (possible reduction). Gated house directly on beach next to Green Island. 3,522 sq ft per OnTheMarket OTM listing 14180123. Sea views confirmed."
   },
   {
     "name": "Landscape Farm",
@@ -3068,16 +3068,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 8,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 8950000,
+    "asking_price_display": "£8,950,000 (Savills, ref gbjsrsjes200036)",
+    "asking_price_source": "https://www.facebook.com/SavillsJerseyLtd/posts/for-salele-chemin-des-moulins-st-helier-asking-8950000-8-bedrooms-9-bathrooms-11/852301610229200/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -1700000,
+    "price_delta_pct": "-19.0",
+    "brochure_pdfs": "https://media.onthemarket.com/properties/14335336/1476750745/document-0.pdf",
+    "notes": "Savills listing gbjsrsjes200036. Le Chemin des Moulins, St Helier. 8 bedrooms, 9 bathrooms, 11 reception rooms plus 2-3 bed lodge. Asking £8,950,000. OnTheMarket PDF brochure URL found but returned 403. Facebook post from Savills Jersey confirmed asking price and bedrooms. Sold £7,250,000 April 2024. Agent: Geri O'Brien (Savills)."
   },
   {
     "name": "Les Cotils with a triangular shaped parcel of land known as FIELD  ...",
@@ -3112,16 +3112,16 @@
     "agent": "Broadlands",
     "agent_slug": "broadlands",
     "source_page": 8,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3600000,
+    "asking_price_display": "£3,600,000",
+    "asking_price_source": "https://jerseyeveningpost.com/news/2024/03/19/sale-of-grve-de-lecq-site-to-government-completed/ | https://www.bailiwickexpress.com/news/greve-de-lecq-mansion-market-11m-any-work-begins/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": 0,
+    "price_delta_pct": "0.0",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial/development sale. Former Seaside Cafe (Romany Cafe), La Greve de Lecq, St Ouen. Sold to Jersey government for £3.6m, gifted to National Trust for Jersey. Site previously marketed at £5m+ with planning permission, or £11m for completed development (Bailiwick Express). The £3.6m sold price matches the transaction to government. Agent Broadlands involved in the resale. Sea views confirmed given beach location."
   },
   {
     "name": "Fairhurst",
@@ -3156,16 +3156,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 8,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3300000,
+    "asking_price_display": "£3,300,000",
+    "asking_price_source": "https://www.onthemarket.com/details/9332844/ ; https://www.rightmove.co.uk/properties/135894788",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -300000,
+    "price_delta_pct": "-9.1",
+    "brochure_pdfs": "https://savills.fluxpro.io/Brochure/JES230124",
+    "notes": "Address: Le Mont Mallet / Le Mont de la Guerande, St. Martin, JE3 6DZ. Agent: Savills Jersey (ref JES230124); also Knight Frank Jersey (ref WILS2902). OTM listed at £3,300,000 (6 beds); Savills/Rightmove listed at £2,750,000 (4 beds, 5,000 sqft). Savills brochure: savills.fluxpro.io/Brochure/JES230124. Sea views of Gorey Harbour. Sold March 2024 for £3,000,000."
   },
   {
     "name": "Jacksons Garage/Showroom and Jacksons House",
@@ -3187,7 +3187,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial property — Jacksons CI Ltd car dealership at La Rue Fondon, St Peter, JE3 7BF. Development/commercial transaction. No residential brochure or asking price found. Sold £8,000,000 March 2024."
   },
   {
     "name": "Jackson's Landrover Showroom, Jacksons Accounts Office And  ...",
@@ -3209,7 +3209,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial property (car dealership / Jackson's Land Rover showroom and accounts office, La Rue Fondon, St Peter). No residential listing found. Skipped."
   },
   {
     "name": "Jacksons Garage Service Centre and Jacksons Volvo",
@@ -3231,7 +3231,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial property (Jacksons Garage Service Centre and Jacksons Volvo, La Rue Fondon, St Peter). Same transaction group as Jackson's Land Rover Showroom sold 2024-03-01. No residential listing. Skipped."
   },
   {
     "name": "Apartment 11",
@@ -3253,7 +3253,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "One St Brelade luxury development, all apartments have panoramic bay views. Comparable units: Apt 4 (2,357 sqft, £4.25m), Apt 5 (1,905 sqft, £3.25m), Apt 6 (2,282 sqft, £3.95m), Apt 7 (2,357 sqft, £4.75m). Apt 11 not individually listed in current pages; listing page returns 'no longer available'. Sold 2024-03-01 at £3.65m via Fine & Country."
   },
   {
     "name": "Apartment 2",
@@ -3266,16 +3266,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 8,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4250000,
+    "asking_price_display": "£4,250,000",
+    "asking_price_source": "https://assets.savills.com/properties/GBJSRSJES230071/JES230071_JES23000366.PDF",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -250000,
+    "price_delta_pct": "-5.9",
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES230071/JES230071_JES23000366.PDF",
+    "notes": "Apartment 2, One St Brelade, Le Mont Gras D'Eau, St Brelade (La Route des Genets area). Savills listing GBJSRSJES230071 shows guide price £4,250,000 for One St Brelade apartment on Le Mont Gras D'Eau. Apartment 2 is on Second Floor with 3 bedrooms per floor plan site. Development overlooks St Brelade's Bay. Sold £4,000,000 on 2024-03-01. Also see Savills listing https://search.savills.com/com/en/property-detail/gbjsrsjes240091"
   },
   {
     "name": "Penthouse Apartment",
@@ -3288,16 +3288,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 8,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 9500000,
+    "asking_price_display": "£9,500,000 guide price (Savills, One St Brelade penthouse)",
+    "asking_price_source": "https://search.savills.com/com/en/property-detail/gbjsrsjes240091",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -2900000,
+    "price_delta_pct": "-30.5",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Penthouse at One St Brelade, Le Mont Gras D'Eau, St Brelade, JE3 8ED. Marketed by Savills (refs JES240091, JES240095). 3 bedrooms, over 3,800 sqft, top floor of 11-unit development, panoramic bay views. Guide price £9,500,000. Also listed at £4,250,000 for lower units (JES230071). Sold £6,600,000 March 2024. Sea view confirmed."
   },
   {
     "name": "Motor Mall (formerly known as St Helier Garage)",
@@ -3319,7 +3319,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial property — Motor Mall on La Grande Route de St Jean, St Helier. Commercial transaction, no residential listing applicable. Sold £7,529,762 March 2024."
   },
   {
     "name": "Green Court",
@@ -3363,7 +3363,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Undivided half share in Little Court, Le Mont Cambrai, St Lawrence. Sold Feb 2024 for £3,250,000 (half share implying full value ~£6.5m). Le Mont Cambrai has a major estate (Villa Cambray, listed at £14m-£16m by Savills/OTM) but Little Court is a separate property. Savills PDF JES200029 returned 410. No asking price or brochure found."
   },
   {
     "name": "Caledonia House",
@@ -3420,16 +3420,16 @@
     "agent": "Knight Frank Jersey",
     "agent_slug": "wilsons",
     "source_page": 9,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 9950000,
+    "asking_price_display": "£9,950,000 (reduced from £12,000,000)",
+    "asking_price_source": "https://www.bailiwickexpress.com/news/claude-cahuns-home-goes-sale-10m/ | https://www.knightfrank.co.in/properties/residential/for-sale/la-route-de-la-baie-st-brelade/WILS2857",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -4340000,
+    "price_delta_pct": "-43.6",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Sold Jan 2024 for £5,610,000. Wilsons Knight Frank listing WILS2857. Originally listed at £12m, reduced to £9,950,000. 6 beds, 6 baths, 4 reception rooms. 16th century granite home. Breathtaking views across St Brelade's Bay. Former home of Claude Cahun and Marcel Moore."
   },
   {
     "name": "A certain piece of land and appurtenances formerly dependent to  ...",
@@ -3472,8 +3472,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://alto-live.s3.amazonaws.com/prIaQoEiboqXwuBVF-vlRnde-Go/Cu7peaZN4rzfjAL8AuZcZ7RiXnM/Brochure/%5B0%5D/7Kog22rSEUKfnhe4Tw7jQA.pdf",
+    "notes": "6 Portelet Bay, La Rue Voisin, St Brelade — gated exclusive development. Agent: Knight Frank Jersey (Wilsons). Property has 5 bedrooms, private en-suites, open-concept kitchen, home gym, double garaging. Brochure PDF is for APT 5 The Shearwater at same Portelet Bay address (different unit, not No. 6). No guide price found for No. 6 specifically."
   },
   {
     "name": "Francfief Farm (formerly known as Franc Fief)",
@@ -3582,8 +3582,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://d2re.co.uk/wp-content/uploads/2019/03/51-53-King-Street-Brochure-Tender.pdf",
+    "notes": "Commercial retail/investment property. 51-53 King Street & 8-10 Broad Street, St Helier — prominent position in pedestrian shopping heart of St Helier, ground floor retail with return frontage to Broad Street. Tender brochure found from 2019 (D2 Real Estate). Sold 2023-11-24 at £3.5m via Broadlands. No residential content."
   },
   {
     "name": "Little Hamlet",
@@ -3671,7 +3671,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Vielle Fontaine, La Profonde Rue, St Ouen, JE3 2EG. Savills listing gbjsrsjes240069 found for La Profonde Rue but could be a re-listing after 2023 sale. No guide price surfaced for original 2023 listing. Substantial property with woodland. Could not confirm asking price."
   },
   {
     "name": "Les Arbres",
@@ -3693,7 +3693,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Les Arbres, La Rue de la Ville au Bas, St Lawrence, JE3 1EW. Savills listing gbjsrsjes220181 found — property was described as 'on the market for first time in 50 years'. No agent listed at point of sale (blank in data). Could not recover asking price or brochure."
   },
   {
     "name": "The Beach House",
@@ -3737,7 +3737,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Altura (previously known as Ashurst), La Rue de Haut, St Brelade, JE3 8AR. Savills listing GBJSRSJES230019 confirmed (also later relisted as GBJSRSJES250023). Rural location near St Aubin/St Brelade village shops. No agent listed in sold record. Savills listing found but guide price not extractable (403 on detail page). PDF brochure URL not confirmed — 410 Gone on attempted URL."
   },
   {
     "name": "l'Aiguillon",
@@ -3816,16 +3816,16 @@
     "agent": "Hunt Estates",
     "agent_slug": "hunt-estates",
     "source_page": 10,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3995000,
+    "asking_price_display": "£3,995,000",
+    "asking_price_source": "https://www.onthemarket.com/details/11350576/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -170000,
+    "price_delta_pct": "-4.3",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Furze Cottage (formerly The Cottage), Les Nouvelles Charrieres, St John. Sold by Hunt Estates 2023-08-11 for £3,825,000. OnTheMarket listing shows 4 bed detached house at £3,995,000 by Hunt Estates. Originally built 1904 with modern extension via glass atrium creating 32ft living room. No brochure PDF found."
   },
   {
     "name": "Vue du Fort (formerly known as Glenwhern)",
@@ -3869,7 +3869,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Sol, Le Chemin de la Brecquette, St Ouen JE3 2FF. 4 bedrooms (2 ground floor en-suite + primary suite + 1 further double on first floor), indoor pool, west-facing balcony with panoramic St Ouen's Bay sea views, large grounds with ponds. Marketed by Livingroom (listing 2859 now 404/removed). Sold Aug 2023 for £3.3m. Asking price not published in accessible sources."
   },
   {
     "name": "Firstly, a certain hotel and parking area known as The Inn  ...",
@@ -3913,7 +3913,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Maryland (formerly Tashihi; and before that Maryland), La Grande Route de la Cote, St Clement, JE2 6FQ. Sold 2023-07-28 for £3,700,000. No agent listed. Address confirmed at JE2 6FQ. No listing or brochure found."
   },
   {
     "name": "Treetops",
@@ -3926,16 +3926,16 @@
     "agent": "Livingroom",
     "agent_slug": "livingroom",
     "source_page": 10,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4995000,
+    "asking_price_display": "£4,995,000",
+    "asking_price_source": "https://www.livingroomproperty.com/buy/property/3116",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -1195000,
+    "price_delta_pct": "-23.9",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Treetops, Le Mont de la Rocque, St Brelade. Sold by Livingroom 2023-07-21 for £3,800,000. Livingroom listing (property/3116) shows guide price £4,995,000 (POA per page but £4,995,000 from OnTheMarket snippet), 7 bedrooms, ~4,817 sq ft, sea views over St Aubin's Bay, private south-facing garden, heated pool, integral garage, attached 2-bed cottage. What3words: wishes.strung.puts. Brochure available at /property/brochure/3116 (no direct PDF URL). OnTheMarket listing https://www.onthemarket.com/details/13008245/"
   },
   {
     "name": "25-26 Esplanade AND 12,14,16,18,20 AND 22 Castle Street",
@@ -3957,7 +3957,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Multi-let prime commercial office investment. Marketed by D2 Real Estate and JLL. Building arranged over ground + 4 upper floors with basement parking in St Helier's CBD. No public guide price found from D2RE listing page. Commercial investment property — no residential details applicable."
   },
   {
     "name": "Constantia",
@@ -4089,7 +4089,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "1/3/5 Castle Street, St Helier — commercial office (4-storey purpose-built). Agent: Sarre & Co. Listed as office rental at £30/sqft NIA, 2,995 sqft. Sale for £4.4m not explained by rental listing; likely freehold investment sale. No sale asking price found."
   },
   {
     "name": "Vue de la Mer",
@@ -4124,16 +4124,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 10,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 17500000,
+    "asking_price_display": "£17,500,000",
+    "asking_price_source": "https://cgcommercial.je/properties/prime-office-investment-13-15-castle-street-st-helier-jersey/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -2964000,
+    "price_delta_pct": "-16.9",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Prime office investment marketed by CG Commercial (now Broadlands Commercial) at £17,500,000 with £1,288,101 p.a. rental income. Sold April 2023 for £14,536,000 to DHRE Holdings Ltd. Commercial property — sale by share transfer or freehold. No residential brochure."
   },
   {
     "name": "La Turballe",
@@ -4177,7 +4177,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Former Water's Edge Hotel, Bouley Bay, Les Charrieres de Boulay, Trinity. Also listed on JamesEdition (ID 15095236). Commercial/hotel property sold to private family for £6.4m March 2023 with plans to demolish and build luxury home. Over 10,000 sqft. Sea views over Bouley Bay. No residential asking price applicable."
   },
   {
     "name": "Maison du Hibou (formerly known as Valbella House and before then  ...",
@@ -4199,7 +4199,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Verte Rue, Trinity JE3 5HD. Agent: Broadlands. Formerly Valbella House. No listing page or brochure found publicly. Asking price not recovered."
   },
   {
     "name": "The Farmhouse (previously called La Ferme de la Fontaine)",
@@ -4265,7 +4265,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Development land/site at Le Mont Fallu, St Peter. Likely sold to Dandara as development land for their 24/25-home scheme of 2-3 bed houses. No single residential asking price applicable. Sold £6,300,000 March 2023."
   },
   {
     "name": "La Ville au Bas",
@@ -4278,16 +4278,16 @@
     "agent": "Broadlands",
     "agent_slug": "broadlands",
     "source_page": 11,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 5000000,
+    "asking_price_display": "£5,000,000",
+    "asking_price_source": "https://www.onthemarket.com/details/16340763/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -1000000,
+    "price_delta_pct": "-20.0",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Ville au Bas, La Rue de La Ville Au Bas, St Lawrence, Jersey JE3 1EW. Sold by Broadlands. OnTheMarket listing shows guide price £5,000,000, 5 bedrooms, 6,458 sq ft, 5 bathrooms, 6 reception rooms, pool, games room, gym. Sold STC. Sold price £4,000,000 on 2023-03-10."
   },
   {
     "name": "Les Homets (formerly 'St Ives')",
@@ -4344,16 +4344,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 11,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3995000,
+    "asking_price_display": "£3,995,000",
+    "asking_price_source": "https://www.onthemarket.com/details/14397703/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -495000,
+    "price_delta_pct": "-12.4",
+    "brochure_pdfs": "https://huntesta.agentpro53.co.uk/ipm/property_docs/2809-PRA11120-webbro-4.pdf",
+    "notes": "1 Clos de la Ferme Rose, La Rue de la Pigeonnerie, St Brelade — marketed by Hunt Estates at £3,995,000 (5 beds, 6 baths, approx 4,800 sqft, lovely outlook over trees). Sold 2023-02-24 at £3.5m via Fine & Country — significant reduction from asking. NOTE: 'Les Pines' may be the property name for this same address, or there may be a separate Fine & Country listing. The data record address is '1 Clos de la Ferme Rose'. The property set (4,839 sqft, 4 double beds, 7 baths) mentioned for 'Les Pines' from search snippet matches closely."
   },
   {
     "name": "Lucas House",
@@ -4397,7 +4397,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Les Augerez House, La Rue de la Caroline, St Peter, JE3 7DR. No agent listed. Sold from Kristin Louise Gardner-Hillman to David George Harrison £6,975,000 Feb 2023. No public asking price or brochure found."
   },
   {
     "name": "The piece of land known as Le Jardin de la Forge",
@@ -4485,7 +4485,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Capital House (formerly Norwich Union House), 8 Church Street, St Helier – commercial office building. Sold Dec 2022 for £3,205,000. ArtHouse Jersey opened exhibition space here in April 2022. Skip as commercial property."
   },
   {
     "name": "La Chesnaie",
@@ -4507,7 +4507,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Chesnaie, St Lawrence. Sold Dec 2022 for £5,250,000. Fine & Country agent. Address mentions outbuildings and garden land. No public listing found for this specific property — searches returned unrelated properties on nearby roads."
   },
   {
     "name": "Vine House",
@@ -4639,7 +4639,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Montrose, La Rue a la Pendue, St Ouen. Sold by Livingroom 2022-11-25 for £3,700,000. Livingroom listing (property/2760) shows POA pricing (no explicit guide price), 5 bedrooms, ~4,450 sq ft, turn-key granite new build, air-source heat pump, underfloor heating, swim spa in south-facing garden, scheduled completion early September 2022. What3words: laugh.sludgy.costing. Brochure at /property/brochure/2760 (no direct PDF URL found)."
   },
   {
     "name": "Rockscape",
@@ -4661,7 +4661,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Rockscape (formerly The Beach House), La Rue de Samares, St Clement, JE2 6LY. Sold 2022-11-25 for £3,900,000. No agent listed. Zoopla confirms Rockscape exists at that address. No listing or brochure found with asking price. Property is on La Rue de Samares which borders the coast, so sea_view likely."
   },
   {
     "name": "Apartment 6/6",
@@ -4705,7 +4705,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial/mixed-use property at Stopford Road, St Helier. No public listing or asking price found. Description suggests a Royal Court conveyance of industrial/commercial buildings."
   },
   {
     "name": "Certain buildings, land and appurtenances, with the party  ...",
@@ -4814,8 +4814,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://media.onthemarket.com/properties/6210460/1337022340/document-0.pdf",
+    "notes": "Property at La Neuve Route, St Brelade named 'Tides Reach' listed via Livingroom and Broadlands Jersey at £1,750,000. However 'Tides' sold 2022-11-11 at £3.65m via Fine & Country — this appears to be a different earlier listing price or a different version of the property. The OnTheMarket brochure PDF is for 'Tides Reach' at the same address. Cannot confirm the Fine & Country £3.65m asking price. 5,439 sqft, 6 beds, sea views are from Tides Reach listing which is likely same property."
   },
   {
     "name": "Strawberry Fields",
@@ -4859,7 +4859,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Tenue, La Rue de la Vallee, St Mary. No agent listed in data. No listing or brochure found for this property. A Savills listing for La Rue de la Vallee St Mary was found (JES240132) but likely a different property. Could not confirm asking price."
   },
   {
     "name": "Beauport Place (previously known as La Chevre d'Or)",
@@ -4881,7 +4881,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Luxury coastal home at Le Chemin de Beau Port, St Brelade. Marketed by Livingroom Estate Agents at POA. ~10,000 sq ft, 5 bedrooms. Panoramic sea views over St Brelade's Bay and Ouaisne. Leisure complex with heated pool, steam room, hot tub. what3words: clarify.advantage.utopia. Sold Oct 2022 for £9.75m."
   },
   {
     "name": "Hideaway",
@@ -4969,7 +4969,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Ruette du Coin Varin, St Peter. Sold Sep 2022 for £5,400,000. No agent listed. No public listing found for this specific property."
   },
   {
     "name": "La Tour de Garde",
@@ -5035,7 +5035,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Porte at La Rue du Pont, St Saviour is a Grade III historic farm complex converted into 9 homes; the £3.43m 2022 sold price likely represents the entire estate/farmhouse sale pre-conversion. Individual units now marketed by Savills at ~£875k–£1.395m. No asking price or agent found for the 2022 whole transaction."
   },
   {
     "name": "Town House 3",
@@ -5101,7 +5101,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Cambrette, Le Squez Road, St Clement. Sold Aug 2022 for £3,200,000. The address JE2 6BA on Le Squez Road is confirmed. No agent or listing found for this specific sale. The £3.2m price suggests a substantial detached property, distinct from the smaller La Cambrette flats in the development."
   },
   {
     "name": "Le Glebe (formerly La Petite Preference)",
@@ -5145,7 +5145,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Rue des Pres Trading Estate, St Saviour JE2 7QT. Commercial industrial/office property. Purchased by Jersey Water as future HQ. LoopNet listing found but 403 blocked. No asking price recovered."
   },
   {
     "name": "Four and Six La Rue Sinnatt",
@@ -5167,7 +5167,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Address: La Rue des Pres Trading Estate, St. Saviour. No agent listed. Likely commercial/industrial property. No public listing found."
   },
   {
     "name": "Le Pre",
@@ -5211,7 +5211,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Rocco Apartments is an 8-unit beachfront development at Le Mont de la Pulente overlooking La Pulente/St Ouen's Bay, marketed by Livingroom. Prices not published online; 0 units currently available. Rocco Two is one of 8 apartments. Sea views confirmed. No asking price or brochure found."
   },
   {
     "name": "Rocco One",
@@ -5255,7 +5255,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Address: La Route Orange, St. Brelade, JE3 8GP. No agent listed. No public listing found."
   },
   {
     "name": "Le Clos Vert",
@@ -5277,7 +5277,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Clos Vert, Le Mont Cochon, St Helier, JE2 3JB. Modern new build completed Dec 2021. 5 beds, 5 baths, 3 reception rooms, gym, home lift, integral 3-car garage, approx 5,800 sqft. Breathtaking sea views over St Aubin's Bay. Sold 2022-07-29 at £3.5m via Broadlands. No asking price found — likely sold off-market or without public listing."
   },
   {
     "name": "A certain piece of land being the remainder of the land (clos)  ...",
@@ -5299,7 +5299,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Land parcel (clos) on La Route de Beaumont, St Peter. Commercial/land transaction. No residential listing applicable. Sold £6,194,375 July 2022."
   },
   {
     "name": "La Maison de la Ruette (formerly known as La Ruette)",
@@ -5321,7 +5321,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Agent: Broadlands. Address: La Ruette, St. Ouen. No public listing or brochure found via web search. Broadlands does not appear to maintain archived listings online."
   },
   {
     "name": "Le Pont Farm (formerly known as Le Port)",
@@ -5343,7 +5343,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Farm property at La Rue du Pont, St John. Marketed by Savills Jersey (ref JES210043). ~6,219 sq ft, 4 en-suite bedrooms in main house plus 2-bed garden cottage. YouTube video 'Le Pont Farm, St John (Sold)' confirms marketing. Sold Jul 2022 for £8.75m. Savills site returns 403; asking price not recovered."
   },
   {
     "name": "Roche Mouette (previously California)",
@@ -5365,7 +5365,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Rue du Grouet, St Brelade. Previously named California. No agent listed. No listing or brochure found."
   },
   {
     "name": "Oakbey Court",
@@ -5387,7 +5387,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Oakbey Court, La Route du Fort, St Helier JE2 4PA. Sold Jul 2022 for £3,250,000. Multiple individual flat addresses confirmed (Flat 4, Flat 6 etc). Likely an investment block sale. No commercial/investment listing or asking price found."
   },
   {
     "name": "Somerleigh (formerly known as Suisse Paradis)",
@@ -5475,7 +5475,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "1 Le Catelet, La Route de St Jean, St John JE3 4EN. Agent: Savills Jersey. 6-bed, approx 6,500 sqft, new build completed end 2020. South-facing garden. Asking price not found in search results. Sold July 2022 for £4,150,000."
   },
   {
     "name": "Aylmer Farm",
@@ -5607,7 +5607,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Property at La Charriere re a Sablon / Le Chemin de Moulin, St Ouen. No agent listed. No public listing found. Sold £8,080,000 June 2022."
   },
   {
     "name": "Belle Hougue",
@@ -5695,7 +5695,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Apartment 3, The Atrium, Le Mont Gras d'Eau, St Brelade. No agent listed in data. The Atrium is a luxury development at Le Mont Gras d'Eau. A Savills brochure PDF for Le Mont Gras d'Eau at guide price £4,250,000 exists (JES230071) but is for a different property. Could not confirm asking price for Apt 3 specifically."
   },
   {
     "name": "La Cigale",
@@ -5826,8 +5826,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://media.onthemarket.com/properties/10099582/1352749880/document-0.pdf",
+    "notes": "La Neuve Route, St Brelade. OTM brochure PDF found but binary not parseable. Savills listing gbjsrsjes220061 for La Neuve Route property found. Asking price not confirmed."
   },
   {
     "name": "Firstly, the house known as Vicart",
@@ -5893,7 +5893,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Agent: Broadlands. Address: La Rue de Sorel, St. John. No public listing or brochure found. La Rue de Sorel has a separate 10-bed property at £10.95m (different property)."
   },
   {
     "name": "Vers Soleil",
@@ -5914,8 +5914,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES200198/JES200198_JES21000347.PDF",
+    "notes": "La Grande Route des Sablons, Grouville JE3 9FP. Sold Apr 2022 for £5,500,000. Savills agent. Listed POA. 6 beds, 8 baths, ~6,825 sq ft. On the waterfront at Le Bourg with steps to beach, unobstructed sea views. Savills PDF JES200198 may relate to this property."
   },
   {
     "name": "Firstly, a certain house bearing the number 21 Esplanade",
@@ -5937,7 +5937,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "21 Esplanade, St Helier — likely commercial office. No agent listed. No residential or commercial listing found."
   },
   {
     "name": "Le Petit Bosquet Care Home",
@@ -5959,7 +5959,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Care home — Le Petit Bosquet Care Home, La Rue de Haut, St Lawrence. Commercial/care sector transaction April 2022. No residential listing applicable."
   },
   {
     "name": "Les Rosiers",
@@ -6003,7 +6003,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Residential apartment block and lodge sold by Rockwood Investments to Andium Homes (States social housing provider) as a tenant rescue deal. Spencer Close sold for ~£15m, Spencer Close Lodge for ~£1.15m. Not a conventional open-market listing; no public asking price or brochure found."
   },
   {
     "name": "Seacroft and Pinewood",
@@ -6025,7 +6025,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Address: La Grande Route de la Cote, St. Clement. No agent listed. No public listing found."
   },
   {
     "name": "Le Lavandage (formerly Portmeirion)",
@@ -6038,16 +6038,16 @@
     "agent": "Hunt Estates",
     "agent_slug": "hunt-estates",
     "source_page": 15,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3650000,
+    "asking_price_display": "£3,650,000",
+    "asking_price_source": "https://www.onthemarket.com/details/18276343/ ; https://property.jerseyeveningpost.com/details/22217598",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -580000,
+    "price_delta_pct": "-15.9",
+    "brochure_pdfs": "https://loopcrm.b-cdn.net/brochures/4204a40b-99b1-4bd5-6224-08ddbe2b7789/1213269/Brochure---La-Lavandage-SALE.pdf",
+    "notes": "Agent: Hunt Estates (listing by Hunt Estates St. Helier). Address: Le Mont de la Rocque / La Lavandage, St Brelade, JE3 8BQ. Asking price £3,650,000. 3 bedrooms all ensuite. 2,975 sqft. Panoramic views over St Aubin's Bay. Also re-listed via Savills (JES230152) at £3,650,000 with 4 beds (2025 listing - possibly renovated). Sold March 2022 for £3,070,000."
   },
   {
     "name": "Ashley House",
@@ -6135,7 +6135,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "A £22m figure for Carteret House is likely a later/whole re-listing; not reliably comparable to this £8.75m sale."
   },
   {
     "name": "Erin Villa (to be known as Villa de la Cote)",
@@ -6179,7 +6179,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Recif at La Route de la Cote, St Martin. Brand new luxury build overlooking Archirondel, east coast. 4 beds, 3 baths, gated entrance, wrap-around terraces, lawned gardens, sea views. Developed by Colony Properties/Fosse Construction. Marketed by Livingroom. Sold Jan 2022 for £3.3m. Asking price not found in accessible sources."
   },
   {
     "name": "Clos de la Blanche Pierre (formerly known as La Folie)",
@@ -6201,7 +6201,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Property at La Rue de la Blanche Pierre, St Lawrence. Later Savills listings (JES230132, JES240128) show the road but these are likely subsequent listings. No pre-sale asking price found for the Jan 2022 sale. Sold for £10.125m. No brochure found."
   },
   {
     "name": "Nord du Champ",
@@ -6377,7 +6377,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial hotel sale. Mayfair Hotel, St Saviour's Road, St Helier — 222 beds. Sold to developers (Dandara) who lodged application for 104 apartments. No residential listing/brochure found. Asking price not confirmed."
   },
   {
     "name": "Stafford Hotel (formerly being the house bearing the number 14  ...",
@@ -6399,7 +6399,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "14 Kensington Place, St Helier. Commercial hotel property. No residential listing. No asking price or agent found."
   },
   {
     "name": "The Hampshire Hotel",
@@ -6421,7 +6421,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "The Hampshire Hotel at 53 Val Plaisant, St Helier – commercial hotel property. Sold Dec 2021 for £3,295,000. No residential brochure or asking price applicable. Skip as commercial transaction."
   },
   {
     "name": "Park Avenue Apartments (formerly The Halberton Hoteland before  ...",
@@ -6459,13 +6459,13 @@
     "asking_price": "",
     "asking_price_display": "",
     "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
+    "first_listed_iso": "2021-09-18",
+    "first_listed_source": "https://jerseyeveningpost.com/news/2023/03/13/sellers-drop-price-of-would-be-record-breaking-mansion/",
+    "days_on_market": 76,
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://issuu.com/livingroomestateagents/docs/domaine_de_la_valette",
+    "notes": "Whole Domaine de la Valette estate guided £39.95m (2021)->£32m; this £7.46m was a SUB-PARCEL (2 apartments + cottage) — not comparable."
   },
   {
     "name": "Maison De La Pere (formerly known as La Renaissance)",
@@ -6508,8 +6508,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://media.onthemarket.com/properties/8862954/1304833232/document-0.pdf",
+    "notes": "Les Ruisseaux, St Brelade JE3 8DD. 3-bed detached. Agent: Fine & Country Jersey. Original asking price not found in search results. OTM brochure PDF found but binary not parseable via WebFetch."
   },
   {
     "name": "Les Grillons",
@@ -6531,7 +6531,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Rue du Pont Marquet, St Brelade. No agent listed. No public listing or asking price found. Sold £6,500,000 December 2021."
   },
   {
     "name": "Walnut Farm and Walnut Farm Cottage",
@@ -6597,7 +6597,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Share 8 at Maison Martel, La Rue du Crocquet, St Brelade. Sold Nov 2021 for £3,250,000 via Fine & Country. La Rue du Crocquet properties include 2-4 bed homes at £995k–£1.995m (much smaller shares). This is a fractional share (share 8 of likely a large estate). No asking price or brochure found for this specific share transaction."
   },
   {
     "name": "The Oaks",
@@ -6632,16 +6632,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 16,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3595000,
+    "asking_price_display": "£3,595,000",
+    "asking_price_source": "OnTheMarket 14397703 (Hunt Estates listing for 1 Clos De La Ferme Rose, La Rue De La Pigeonnerie); brochure via huntesta.agentpro53.co.uk",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -280000,
+    "price_delta_pct": "-7.8",
+    "brochure_pdfs": "https://huntesta.agentpro53.co.uk/ipm/property_docs/2809-PRA11120-webbro-4.pdf",
+    "notes": "Rose Farm and Rose Farm Cottage at Clos de la Ferme Rose, La Rue de la Pigeonnerie, St Brelade JE3 8DE. Originally listed by Fine & Country (2021 sale); later relisted via Hunt Estates at £3,595,000 with 5 beds/~4,800 sq ft. Sold Nov 2021 for £3,315,000. The Hunt Estates brochure PDF is the best available. Original Fine & Country asking price not confirmed – the £3,595,000 Hunt listing may be a re-marketing."
   },
   {
     "name": "Maison des Croix",
@@ -6773,7 +6773,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Hunt Estates listed. No public listing or brochure found via web search. Property at La Rue St Julien, JE3 6HL. No asking price recoverable."
   },
   {
     "name": "Ardmore House (formerly known as Les Ormes)",
@@ -6795,7 +6795,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Rue de la Chesnaie, St John. Sold Oct 2021 for £5,500,000. No agent listed. No public listing found."
   },
   {
     "name": "La Chapelle de Ste Marguerite",
@@ -6874,16 +6874,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 17,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 5995000,
+    "asking_price_display": "£5,995,000 (guide; later relisted at £6,500,000)",
+    "asking_price_source": "https://search.savills.com/je/en/property-detail/gbjsrsjes220203 | https://assets.savills.com/properties/GBJSRSJES180082/JES180082_JES20000578.PDF",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -220000,
+    "price_delta_pct": "-3.7",
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES180082/JES180082_JES20000578.PDF https://assets.savills.com/properties/GBJSRSJES220203/JES220203_JES23000337.PDF",
+    "notes": "Sold Oct 2021 for £5,775,000. Savills JES180082 is the original listing; JES220203 is the relisting at £6,500,000 guide. Property has 5-bed main house + 2-bed cottage. ~9,705 sq ft. Price at time of 2021 sale estimated at £5,995,000 (multiple sources cite this as guide before reduction)."
   },
   {
     "name": "Le Feugerel de la Marquanderie (previously La Fontaine David and  ...",
@@ -6918,16 +6918,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 17,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 5980000,
+    "asking_price_display": "£5,980,000",
+    "asking_price_source": "https://www.onthemarket.com/details/12711147/ | https://www.livingroomproperty.com/buy/property/2801 | https://issuu.com/livingroomestateagents/docs/veslet_lodge_lookbook",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -355000,
+    "price_delta_pct": "-5.9",
+    "brochure_pdfs": "https://issuu.com/livingroomestateagents/docs/veslet_lodge_lookbook",
+    "notes": "Sold Oct 2021 for £5,625,000. Listed at £5,980,000 (OnTheMarket / Livingroom). Earlier OTM listing at £7,500,000 also found. 6 beds, 8,281 sq ft approx. Le Mont Sorsoleil, St Lawrence. Livingroom estate agents. Issuu lookbook brochure available."
   },
   {
     "name": "Le Val Lodge (formerly Sea View House)",
@@ -6948,8 +6948,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://media.onthemarket.com/properties/8978663/1352426914/document-0.pdf",
+    "notes": "Coastal residence at La Route des Genets, St Brelade, marketed by Livingroom Estate Agents. Extensively remodelled 2017. Features 14m infinity pool, tennis court. Sea views over Ouaisne and St Brelade's Bay from all principal rooms. Asking price listed as POA on Livingroom site. Sold Oct 2021 for £11.85m. Issuu brochure available. OTM brochure PDF: media.onthemarket.com/properties/8978663/1352426914/document-0.pdf."
   },
   {
     "name": "Ville-Es-Normans-Farm",
@@ -7015,7 +7015,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Chemin de Beau Port, St Brelade, sold Oct 2021 £5,507,000. No agent listed. Beauport is a coastal area so sea view likely. No public listing or brochure found within search budget."
   },
   {
     "name": "Le Jardin Mure (formerly Peacock Farm)",
@@ -7081,7 +7081,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Park Estate, La Route des Genets, St Brelade. No agent listed. No public listing or asking price found. Sold £6,750,000 September 2021. Park Estate is a sought-after coastal enclave near St Brelade's Bay."
   },
   {
     "name": "A certain building",
@@ -7213,7 +7213,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Bandinel, La Cache des Demoiselles Bandinel, St Martin, JE3 6BA. Sold 2021-08-27 for £3,900,000. No agent listed. No listing or brochure found."
   },
   {
     "name": "Les Pieces (formerly Les Pieces Cottage)",
@@ -7248,16 +7248,16 @@
     "agent": "Broadlands",
     "agent_slug": "broadlands",
     "source_page": 18,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4995000,
+    "asking_price_display": "£4,995,000",
+    "asking_price_source": "https://www.broadlandsjersey.com/property/century-buildings/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -695000,
+    "price_delta_pct": "-13.9",
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES170248/JES170248_JES18000099.PDF",
+    "notes": "Le Canibut, St John JE3 4AD. Agent: Broadlands (sold 2021); Savills also listed previously. 8-bed country estate, 15,000 sqft, 40 vergees land with pool, sauna, hot tub. Savills PDF brochure found (JES170248). Asking price £4,995,000 from search results. Sold for £4,300,000."
   },
   {
     "name": "Waters Edge",
@@ -7301,7 +7301,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Apartment 6/6, The Curlew, La Rue Voisin, St Brelade. OnTheMarket listing found for The Curlew at £2,250,000 (3 beds) but this appears to be a different/later unit listing. No agent listed for this sale. Could not confirm specific asking price for 6/6."
   },
   {
     "name": "Cresta",
@@ -7323,7 +7323,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Cresta, Le Mont de la Rocque, St Brelade. Sold by Broadlands 2021-08-20 for £4,000,000. No active listing or archived listing found. Search results for Le Mont de la Rocque return other properties but not Cresta specifically."
   },
   {
     "name": "Parkfield House (formerly Clos de la Pommeraie previously Le  ...",
@@ -7446,16 +7446,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 18,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3500000,
+    "asking_price_display": "£3,500,000",
+    "asking_price_source": "https://www.onthemarket.com/details/10176461/ | https://www.ukpostcodecheck.com/address/ab6add41/flicquet-house_la-rue-du-flicquet_st.-martin_jersey_je3-6bp",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": 100000,
+    "price_delta_pct": "2.9",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Flicquet House, La Rue Du Flicquet, St Martin, JE3 6BP. Listed via Livingroom Jersey at £3,500,000 (likely the original asking price before the Aug 2021 sale at £3.6m). 7 bedrooms, sea views over St Catherine's breakwater towards Normandy. Property in same ownership 34+ years, dates to early 18th century, indoor heated swimming pool. No brochure PDF found."
   },
   {
     "name": "Amp Golf",
@@ -7499,7 +7499,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Grade II listed Regency manor in St Ouen, marketed by Savills Jersey (ref GBJSRSJES180180). Set in 35 vergees of land. Historic manor dating to 12th century with authentic fireplaces, marble bathrooms. Savills listing confirmed but asking price not publicly displayed (likely POA). Sold Jul 2021 for £11.25m."
   },
   {
     "name": "La Flotte",
@@ -7543,7 +7543,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Maison du Mont (formerly Balgona), La Rue de la Blanche Pierre, St Lawrence, JE3 1EX. Sold 2021-07-16 at £3.5m via Broadlands. Planning permission for palatial mansion of approx 13,000 sqft with panoramic views over St Aubin Bay. 5 bedrooms in planning. Savills later re-listed (JES230132). No original Broadlands asking price recovered."
   },
   {
     "name": "4 King Street and 11, 13 and 15 Halkett Place",
@@ -7587,7 +7587,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Address: La Rue Rouge Cul, St. Lawrence, JE3 1NP. No agent listed in sale record. No public listing found. Livingroom estate agents listed nearby Veslet Lodge (6 beds, 8,281 sqft, sold) but that is a different property."
   },
   {
     "name": "Les Niemes (formerly known as La Neuve Maison des Niemes)",
@@ -7609,7 +7609,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Les Niemes, La Grande Route De St Pierre, JE3 7AX. Savills listing JES190048 found but PDF (410 Gone). No asking price or brochure recoverable. Sold £6,800,000 July 2021."
   },
   {
     "name": "4 Les Residences",
@@ -7675,7 +7675,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Melrose (formerly known as Lucero), La Route Orange, St Brelade. Sold by Broadlands 2021-06-25 for £3,890,000. Note: the Broadlands 'Melrose' development at La Route Orange is a new 2025 eco-home scheme — the sold property 'Melrose (formerly Lucero)' is a separate pre-existing house. No archived listing with asking price found for the 2021 sale."
   },
   {
     "name": "Beau Vallon",
@@ -7719,7 +7719,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Bouillon, La Rue des Landes, St Brelade JE3 8BU. Sold Jun 2021 for £3,250,000. No agent identified in the land transaction. No pre-sale listing or asking price found."
   },
   {
     "name": "Le Domaine",
@@ -7829,7 +7829,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Craigellachie, La Charriere Huet, St Ouen, JE3 2DN. Sold 2021-05-28 for £3,750,000. No agent listed. No listing or brochure found."
   },
   {
     "name": "Hotel Miramar",
@@ -7872,8 +7872,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://media.onthemarket.com/properties/8506680/1335451293/document-0.pdf",
+    "notes": "Zantara, La Route de Noirmont, St Brelade JE3 8AJ. Sold May 2021 for £5,150,000. OnTheMarket brochure PDF found (image-only). ND Estates listed as agent (site shows sold page but 404). No asking price recovered."
   },
   {
     "name": "Maison du Hibou (formerly known as Valbella House and La Maison  ...",
@@ -7895,7 +7895,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Address: La Verte Rue, Trinity, JE3 5HD. No agent listed. No public listing found. Confirmed address via postcode check. Not to be confused with the nearby Maison de la Valette (the £40m+ property)."
   },
   {
     "name": "Charleston House (formerly known as Le Haut du Mont)",
@@ -7983,7 +7983,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Baymont at Le Boulevard, St Brelade JE3 8AB. Hunt Estates confirmed as selling agent (per input data). Property overlooks St Aubin's Bay (sea views). Sold May 2021 for £3,265,000. A later 5-bed Baymont House listing appeared at £9.95m via Gaudin (possibly major development/rebuild after sale). No 2021 asking price or brochure found."
   },
   {
     "name": "Fontenay",
@@ -8071,7 +8071,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Plot 6 within the former Jersey property (likely Jersey Airlines/Portelet Bay development) at Portelet, La Rue Voisin, St Brelade JE3 8PS. Sold Apr 2021 for £3.2m. Portelet Bay is a high-end development with sea/bay views. OTM showed a 4-bed flat on this road for £3.3m. No specific plot 6 pre-sale listing found."
   },
   {
     "name": "The Barn",
@@ -8181,7 +8181,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Fontenelle, La Rue de Bas, St Lawrence. Agent: Hunt Estates. ND Estates also shows a sold record for 'La Fontenelle'. Hunt Estates is Christie's International Real Estate affiliate in Jersey. No guide price found for this property."
   },
   {
     "name": "Val Poucin Cottage",
@@ -8225,7 +8225,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Broadlands estate at Princes Tower Road, Grouville, JE3 9HQ. No public listing or asking price found. Property is the HQ of Broadlands estate agent; may have been off-market. Agent field blank in source data."
   },
   {
     "name": "Longfield House",
@@ -8260,16 +8260,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 20,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 25000000,
+    "asking_price_display": "£25,000,000",
+    "asking_price_source": "https://www.onthemarket.com/details/9990722/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": 6100109,
+    "price_delta_pct": "24.4",
+    "brochure_pdfs": "https://media.onthemarket.com/properties/8955312/1335595216/document-0.pdf",
+    "notes": "Listed on OnTheMarket at £25,000,000. Approx 16,000 sq ft, 6 bedrooms. Views over south coast bays. Located at Travers Farm Lane, La Route de Noirmont, St Brelade. Sold 2021 for £31.1m (premium over ask). OTM brochure PDF confirmed at media.onthemarket.com/properties/8955312/1335595216/document-0.pdf; also covered by Jersey Evening Post (Oct 2019)."
   },
   {
     "name": "La Cloture",
@@ -8313,7 +8313,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Bay View (formerly Somerville House) at Le Mont du Boulevard, St Brelade. Sold Mar 2021 for £3.3m. The Somerville Hotel is at the same road but is a separate commercial entity. No residential property listing found for this sale."
   },
   {
     "name": "The Old Station House",
@@ -8357,7 +8357,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Trinity parish, sold Feb 2021 £5,600,000. Complex conveyance with multiple land parcels. No agent listed. No public listing found — likely off-market or private treaty."
   },
   {
     "name": "Le Ponterrin Barn",
@@ -8401,7 +8401,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Catillon, Grouville. Sold Feb 2021 for £5,500,000. No agent listed. No public listing found."
   },
   {
     "name": "Hotel Alhambra or Hotel Asioli (formerly known as 'Auckland')",
@@ -8445,7 +8445,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Caches des Coupes, St Ouen. No agent listed. No listing or brochure found."
   },
   {
     "name": "Winwood",
@@ -8524,16 +8524,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 20,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "asking_price": 3800000,
+    "asking_price_display": "Guide price £3,800,000",
+    "asking_price_source": "https://assets.savills.com/properties/GBJSRSJES170229/JES170229_JES17001203.PDF",
+    "first_listed_iso": "2017-01-01",
+    "first_listed_source": "https://assets.savills.com/properties/GBJSRSJES170229/JES170229_JES17001203.PDF",
+    "days_on_market": 1482,
+    "price_delta": -700000,
+    "price_delta_pct": "-18.4",
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES170229/JES170229_JES17001203.PDF https://media.onthemarket.com/properties/6210022/820668803/document-0.pdf",
+    "notes": "Agent: Savills Jersey. Address: La Rue de l'Epine, Trinity, JE3 5AU. Guide price £3,800,000 (Savills ref JES170229, dated 2017). 6 bedrooms all ensuite, ~8,000 sqft. Sea views over Bouley Bay towards France. Sold January 2021 for £3,100,000 — below asking. First listed ~2017 per reference code."
   },
   {
     "name": "Parasol",
@@ -8788,16 +8788,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 21,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 2790000,
+    "asking_price_display": "£2,790,000",
+    "asking_price_source": "Savills JES230166 (search.savills.com/property-detail/gbjsrsjes230166); OTM 13704760; brochure via savills.fluxpro.io/Brochure/JES230166. Note: this Savills listing is a current/recent re-listing at £2.79m of a 5-bed Georgian house – may be same or different property from the 2020 Fine & Country sale at £3.2m.",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": 410000,
+    "price_delta_pct": "14.7",
+    "brochure_pdfs": "https://savills.fluxpro.io/Brochure/JES230166",
+    "notes": "Seaview at La Grande Route de Faldouet, St Martin JE3 6UE. Fine & Country listed as selling agent (per input data). Sold Dec 2020 for £3.2m. The Savills listing JES230166 for this road shows a 5-bed Georgian family home with cottage at £2,790,000 – this appears to be a subsequent/re-listing after the 2020 sale (possibly same property relisted). Brochure URL is for the Savills re-listing. Original Fine & Country asking price (pre-Dec 2020) not confirmed."
   },
   {
     "name": "12 La Turballe",
@@ -8840,8 +8840,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://www.sarreandco.com/wp-content/uploads/2020/09/First-Island-House-Peter-Street.pdf",
+    "notes": "Commercial building — First Island House, 19-21 Peter Street, St Helier, JE4 8SG. Office building, also known as registered address for Appleby offshore entities. Brochure/marketing document found via Sarre & Co but PDF returned 404. No residential price data."
   },
   {
     "name": "3 La Hurette",
@@ -8876,16 +8876,16 @@
     "agent": "Hunt Estates",
     "agent_slug": "hunt-estates",
     "source_page": 21,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 5950000,
+    "asking_price_display": "£5,950,000",
+    "asking_price_source": "https://www.onthemarket.com/details/9480260/ | https://huntestates.com/properties/area/st-saviour/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -650000,
+    "price_delta_pct": "-10.9",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Maufant Manor, La Route de Maufant, St Saviour JE2 7HX. Sold Oct 2020 for £5,300,000. Hunt Estates agent. OTM listed at £5,950,000. 6 bed main house plus 3-bed and 2-bed cottages. ~74 vergees (33 acres). Georgian style (1837). Christie's International affiliate."
   },
   {
     "name": "Le Conquet",
@@ -8942,16 +8942,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 21,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "asking_price": 3300000,
+    "asking_price_display": "£3,300,000",
+    "asking_price_source": "https://fineandcountryjersey.com/sales/62825/ (Fine & Country Jersey, ref FC069)",
+    "first_listed_iso": "2020-05-01",
+    "first_listed_source": "https://fineandcountryjersey.com/sales/62825/ (Fine & Country Jersey, ref FC069)",
+    "days_on_market": 182,
+    "price_delta": -200000,
+    "price_delta_pct": "-6.1",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Agent: Fine & Country Jersey. Address: Gorey Coast Road, St. Martin. Asking price £3,300,000, listed ~May 2020. 5/6 bedrooms + integral ground floor unit. 180-degree sea views from St Catherine to Gorey Harbour and Grouville Bay. Fine & Country listing FC069 redirects to new site; direct URL no longer active."
   },
   {
     "name": "Le Senechal",
@@ -8995,7 +8995,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "1 Le Catelet, La Rue d'Enfer, St John, JE3 4AN. Sold by Livingroom 2020-10-23 for £3,700,000. Address confirmed at JE3 4AN. No listing or brochure found. Search result snippet mentions 'Catelet House' with 6 bedroom suites and ~6,500 sq ft but cannot confirm this refers to 1 Le Catelet specifically."
   },
   {
     "name": "4 Portelet Bay",
@@ -9149,7 +9149,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Anjou, La Verte Rue / La Rue de la Genestiere, St Martin. Sold by Broadlands 2020-09-11 for £3,750,000. No listing or brochure found."
   },
   {
     "name": "Glenwhern",
@@ -9250,16 +9250,16 @@
     "agent": "Gaudin & Co",
     "agent_slug": "gaudin-and-co",
     "source_page": 22,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4950000,
+    "asking_price_display": "£4,950,000",
+    "asking_price_source": "https://www.theislandwiki.org/index.php/Bel_au_Vent",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -1000000,
+    "price_delta_pct": "-20.2",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Maison Bel Au Vent (formerly Planters Grove), St Lawrence. Sold by Gaudin & Co 2020-08-21 for £3,950,000. Search results indicate it was advertised for £4,950,000 (reportedly in 2017) and sold for £3.8m–£3.95m. Source snippet mentions '£4.95 million in 2017'. Asking price figure taken from search snippet — treat as approximate."
   },
   {
     "name": "La Clochette (formerly known as Green Farm)",
@@ -9281,7 +9281,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Clochette (formerly known as Green Farm), La Rue de la Clochette, St Martin, JE3 6HA. Sold by Gaudin & Co 2020-08-21 for £3,900,000. No active listing or historical listing with asking price found."
   },
   {
     "name": "Floriana",
@@ -9347,7 +9347,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "28-34 Hill Street, St Helier. No agent listed. Sold 2020-08-14 at £3,435,000. Likely commercial property in St Helier town centre. No listing, brochure, or asking price found in public sources."
   },
   {
     "name": "Leoville House",
@@ -9391,7 +9391,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Formerly Les Huriaux House. Address: La Route Orange, St. Brelade. No agent listed. No public listing found."
   },
   {
     "name": "Camelot (formerly Villa Mont Arthur)",
@@ -9457,7 +9457,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Contemporary property in heart of Coastal National Park, St Ouen, high above St Ouen's Bay. Over 11,000 sq ft over four floors. Interiors by Bonham & Bonham. Views across Val de la Mare reservoir. No asking price found in public sources. Sold Jun 2020 for £9.7m."
   },
   {
     "name": "Apartment 8",
@@ -9545,7 +9545,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Garden Court, La Rue de Haut, St Brelade. No agent listed in data. Sold 2020-04-17 at £3.5m. Could not find any listing or brochure. A property on La Rue de Haut at £10,950,000 (Wilsons) is different. No asking price confirmed."
   },
   {
     "name": "Ker Anna House and Ker Anna Cottage",
@@ -9611,7 +9611,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Chemin de Beau Port, St Brelade JE3 8BX. Sold 2020 as Morningside (formerly Riddingwood). Currently relisted as a 5-bed beachfront property at £16m by Broadlands. No agent or asking price for 2020 sale found. Sea view confirmed — beachfront."
   },
   {
     "name": "La Planque Farm",
@@ -9699,7 +9699,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Property at Travers Farm Lane, La Route de Noirmont, St Brelade (postcode JE3 8LA). Marketed by Fine & Country. Sold Feb 2020 for £10m. No public asking price or brochure found in searches. Fine & Country Jersey listing not recoverable."
   },
   {
     "name": "Purbeck Lodge",
@@ -9721,7 +9721,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Purbeck Lodge (previously Lane End Lodge), La Route des Genets, St Brelade. Sold Feb 2020 for £3.3m. Current listings on La Route des Genets show a Savills listing (Park Estate, JES240172, 4 bed). No pre-sale asking price or brochure found for Purbeck Lodge."
   },
   {
     "name": "Les Bardeaux",
@@ -9787,7 +9787,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Millbrook House, St Helier — country estate with farm house, staff accommodation, greenhouses, outbuildings on approx 21 vergees. Agent Broadlands. Sold 2020-01-24 at £3.6m. No listing/brochure or asking price found for this property in public sources."
   },
   {
     "name": "Le Buissonnet",
@@ -9831,7 +9831,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial/land transaction in St. Saviour with warehouse building. No agent listed. No public listing found."
   },
   {
     "name": "Undivided shares of 13-14 The Esplanade",
@@ -9853,7 +9853,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial office building at 13-14 Esplanade, St Helier (Jersey Financial Business District). Sarre & Co list it as 6,743 sq ft office space at £31/sqft rental. Royal Court sale of undivided shares — no public asking price for the investment sale found. Commercial."
   },
   {
     "name": "The house known as The Wishing Well",
@@ -9897,7 +9897,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Rue De La Ville Au Neveu, St Ouen. Agent: Knight Frank Jersey (Wilsons). Broadlands also has a Northdale listing. Asking price not found for 2019 sale."
   },
   {
     "name": "Brecon",
@@ -9919,7 +9919,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Brecon, La Vau Tocque, Le Chemin du Portelet, St Brelade. Broadlands agent. No listing or brochure found for this exact property. Salt House brochure found at Le Vau Tocque but that is a different property. Asking price not confirmed."
   },
   {
     "name": "A certain office building known as Liberte House",
@@ -9941,7 +9941,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial — Liberte House office building, 1-3 Hilary Street and 39 [adjacent], St Helier. Commercial transaction November 2019. No residential listing applicable."
   },
   {
     "name": "Guiton House",
@@ -9963,7 +9963,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "La Grande Route de St Martin, St Saviour JE2 7XQ — Guiton House is/was the Jersey Evening Post headquarters. Likely a commercial/office sale. No residential listing found."
   },
   {
     "name": "17 Hilary Street and 4 Wesley Street",
@@ -10095,7 +10095,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Development site — formerly Villa D'Or at La Rue au Moestre, St Brelade. Sold as site/land Oct 2019 for £6,500,000. No residential listing applicable. The current Broadlands 'Maison D'Or' at £28m above St Aubin harbour appears to be a newly built property on/near this site."
   },
   {
     "name": "Highland House",
@@ -10139,7 +10139,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Address: Beechfield Lane, St. Helier. No agent listed. No public listing found."
   },
   {
     "name": "2 Clos de la Ferme Rose",
@@ -10183,7 +10183,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Off-plan/new build sale on La Route des Genets, St Brelade. Royal Court description 'a certain house in course of construction'. Likely the new build adjacent to Silver Springs/Le Val area. No public listing or brochure found — sold pre-completion without public marketing record."
   },
   {
     "name": "Corniche Apartments",
@@ -10271,7 +10271,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills re-listed in 2024. Sold via Fine & Country 2019 for £5m. Sea view over St Brelade's Bay confirmed from listing description. Original asking price not found publicly."
   },
   {
     "name": "Villa Cote D'Or",
@@ -10314,8 +10314,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://media.onthemarket.com/properties/6669598/929055172/document-0.pdf",
+    "notes": "Rose Cottage (formerly Rosemary's Cottage), Le Chemin des Creux, St Brelade. Sold by Thompson Lettings 2019-08-23 for £4,000,000. OnTheMarket brochure PDF found. Property described as clifftop coastal retreat above St Brelade's Bay, 2 bedrooms + study (plans passed for 3rd), military buildings dating to 1700s renovated 2013. Price not confirmed from brochure (PDF binary). Also listed via Savills at https://search.savills.com/je/en/property-detail/gbjsrsjes230156 (a later relisting)."
   },
   {
     "name": "Homewood with a certain house called The Barn",
@@ -10337,7 +10337,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Homewood with The Barn at Le Mont Sohier, St Brelade (JE3 8EA) sold July 2019 for £3.35m. The address exists (confirmed via ukpostcodecheck). Current listings on the road are different properties (new builds). No pre-sale asking price or agent identified for the 2019 transaction."
   },
   {
     "name": "Old Quarry House",
@@ -10447,7 +10447,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Wests Centre, St Helier. Commercial investment property. Queree Property Consultants had a Wests Centre listing; AW Properties also listed a Wests Centre property. No specific asking price for West House found."
   },
   {
     "name": "Moontide",
@@ -10469,7 +10469,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Moontide at La Rue du Grouet, St Brelade. Savills reference JES150036 exists for this road (listed from 2015, possibly stale listing). Sold May 2019 for £3.35m. No asking price or brochure retrievable."
   },
   {
     "name": "Les Nouettes",
@@ -10535,7 +10535,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "1 Seaton Place, St Helier. Commercial office building sold Apr 2019 for £3,200,000. Broadlands Commercial listed it as offices. Skip as commercial property."
   },
   {
     "name": "3 Petite Route de Campagne",
@@ -10667,7 +10667,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Formerly Tas de Geon. Agent: Broadlands. Address: La Rue du Pont Marquet, St. Brelade, JE3 8DS. No public listing or brochure found — Broadlands archives not available online."
   },
   {
     "name": "Elizabeth House",

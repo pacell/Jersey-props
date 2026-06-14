@@ -15,7 +15,7 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from jersey_props import config, storage, geocode          # noqa: E402
+from jersey_props import config, storage, geocode, source_meta          # noqa: E402
 from jersey_props.brochure import fetch_metrics, metrics_from_text  # noqa: E402
 
 SITE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "site")
@@ -32,10 +32,17 @@ def _load_json(path, default):
         return default
 
 
+def _save_json(path, obj):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f)
+
+
 def main() -> None:
     enr = storage.load_enriched_rows()
     manual = _load_json(os.path.join(config.DATA_DIR, "manual_search.json"), {})
     local_broch = _load_json(os.path.join(SITE_DIR, "brochures", "index.json"), {})
+    src_cache_path = os.path.join(config.DATA_DIR, "source_meta_cache.json")
+    src_cache = _load_json(src_cache_path, {})
     out = []
     for i, r in enumerate(enr, 1):
         if i % 100 == 0:
@@ -57,10 +64,36 @@ def main() -> None:
             blob = f"{name} {address} {parish}".lower()
             sea = any(k in blob for k in SEA_KW)
 
-        # Brochures: locally-saved PDFs first, then remaining remote links.
+        # Brochures: link the REMOTE agent/portal URLs (keeps the hosted site
+        # light). PDFs are also archived locally by download_brochures.py, but we
+        # don't serve the ~190MB of files from the site.
         remote = [u for u in (r.get("brochure_pdfs") or "").split() if u]
-        brochures = list(dict.fromkeys(local_broch.get(key, []) + remote))
+        brochures = list(dict.fromkeys(remote))
 
+        # Listing page = the agent/portal link to view the property (not a PDF).
+        listing_url = ""
+        cand = m.get("source", "")
+        if cand.startswith("http") and not cand.lower().endswith(".pdf"):
+            listing_url = cand
+        else:
+            for u in remote:
+                if u.startswith("http") and not u.lower().endswith(".pdf"):
+                    listing_url = u
+                    break
+
+        # Scrape image + precise coords from the listing page (cached).
+        meta = {}
+        if listing_url:
+            if listing_url in src_cache:
+                meta = src_cache[listing_url]
+            else:
+                meta = source_meta.listing_meta(listing_url)
+                src_cache[listing_url] = meta
+                time.sleep(0.4)
+
+        # Coords: Nominatim road+parish, else parish centroid. (Listing-page
+        # coords are unreliable -- pages embed nearby-listing carousels, so a
+        # scraped lat/lng is often a different property; we don't trust them.)
         lat, lng = geocode.geocode(parish, name, address)
         out.append({
             "name": name,
@@ -74,6 +107,8 @@ def main() -> None:
             "discount_pct": (float(r["price_delta_pct"]) if r.get("price_delta_pct") else None),
             "agent": r.get("agent", ""),
             "brochures": brochures,
+            "listing_url": listing_url,
+            "image": meta.get("image", ""),
             "first_listed": r.get("first_listed_iso", ""),
             "size_sqft": metrics.get("size_sqft"),
             "bedrooms": metrics.get("bedrooms"),
@@ -86,6 +121,7 @@ def main() -> None:
         })
 
     geocode.save_cache()
+    _save_json(src_cache_path, src_cache)
     os.makedirs(SITE_DIR, exist_ok=True)
     path = os.path.join(SITE_DIR, "data.json")
     with open(path, "w", encoding="utf-8") as f:
