@@ -64,9 +64,11 @@ def main() -> None:
             blob = f"{name} {address} {parish}".lower()
             sea = any(k in blob for k in SEA_KW)
 
-        # Brochures: locally-saved PDFs first, then remaining remote links.
+        # Brochures: link the REMOTE agent/portal URLs (keeps the hosted site
+        # light). PDFs are also archived locally by download_brochures.py, but we
+        # don't serve the ~190MB of files from the site.
         remote = [u for u in (r.get("brochure_pdfs") or "").split() if u]
-        brochures = list(dict.fromkeys(local_broch.get(key, []) + remote))
+        brochures = list(dict.fromkeys(remote))
 
         # Listing page = the agent/portal link to view the property (not a PDF).
         listing_url = ""
@@ -89,11 +91,10 @@ def main() -> None:
                 src_cache[listing_url] = meta
                 time.sleep(0.4)
 
-        # Coords: precise listing coords win; else Nominatim road+parish/centroid.
-        if meta.get("lat") is not None and meta.get("lng") is not None:
-            lat, lng = meta["lat"], meta["lng"]
-        else:
-            lat, lng = geocode.geocode(parish, name, address)
+        # Coords: Nominatim road+parish, else parish centroid. (Listing-page
+        # coords are unreliable -- pages embed nearby-listing carousels, so a
+        # scraped lat/lng is often a different property; we don't trust them.)
+        lat, lng = geocode.geocode(parish, name, address)
         out.append({
             "name": name,
             "address": address,

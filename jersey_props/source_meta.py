@@ -40,7 +40,8 @@ def listing_meta(url: str) -> dict:
     out: dict = {}
     if not url or url.lower().endswith(".pdf"):
         return out
-    html = fetch(url)
+    # Short timeout, no retries -- a slow/dead listing page must not stall the build.
+    html = fetch(url, timeout=12, retries=1)
     if not html:
         return out
     m = _OG_RE.search(html) or _OG_RE2.search(html)
