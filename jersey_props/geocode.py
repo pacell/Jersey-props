@@ -10,6 +10,24 @@ are approximate, not surveyed.
 from __future__ import annotations
 
 import hashlib
+import json
+import os
+import re
+import time
+import urllib.parse
+import urllib.request
+
+from . import config
+
+# Nominatim (OpenStreetMap) for real street-level coords where it resolves.
+_NOMINATIM = "https://nominatim.openstreetmap.org/search"
+_NOM_UA = "jersey-props-personal/1.0 (https://github.com/pacell/jersey-props)"
+_CACHE_PATH = os.path.join(config.DATA_DIR, "geocode_cache.json")
+# Jersey bounding box -- reject anything that resolves elsewhere.
+_BOUNDS = (49.15, 49.27, -2.27, -2.00)  # lat_min, lat_max, lng_min, lng_max
+_ROAD_RE = re.compile(
+    r"\b(rue|route|mont|chemin|avenue|lane|clos|ruette|esplanade|street|road|"
+    r"hill|chasse|colomberie|gardens|close|place|grande|petite)\b", re.I)
 
 # Approx parish centroids (lat, lng).
 PARISH_CENTROIDS = {
@@ -51,6 +69,85 @@ def _jitter(seed: str, span: float = 0.012) -> tuple[float, float]:
     dx = (int(h[:8], 16) / 0xFFFFFFFF - 0.5) * span
     dy = (int(h[8:16], 16) / 0xFFFFFFFF - 0.5) * span
     return dx, dy
+
+
+_cache: dict | None = None
+
+
+def _load_cache() -> dict:
+    global _cache
+    if _cache is None:
+        try:
+            with open(_CACHE_PATH, encoding="utf-8") as f:
+                _cache = json.load(f)
+        except (OSError, ValueError):
+            _cache = {}
+    return _cache
+
+
+def save_cache() -> None:
+    if _cache is not None:
+        os.makedirs(os.path.dirname(_CACHE_PATH), exist_ok=True)
+        with open(_CACHE_PATH, "w", encoding="utf-8") as f:
+            json.dump(_cache, f)
+
+
+def _in_bounds(lat: float, lng: float) -> bool:
+    return _BOUNDS[0] <= lat <= _BOUNDS[1] and _BOUNDS[2] <= lng <= _BOUNDS[3]
+
+
+def _nominatim(query: str) -> tuple[float, float] | None:
+    """Query Nominatim once (cached, rate-limited). Returns coords or None."""
+    cache = _load_cache()
+    if query in cache:
+        v = cache[query]
+        return tuple(v) if v else None
+    url = _NOMINATIM + "?" + urllib.parse.urlencode(
+        {"format": "json", "limit": 1, "countrycodes": "je", "q": query})
+    result = None
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": _NOM_UA})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read())
+        if data:
+            lat, lng = float(data[0]["lat"]), float(data[0]["lon"])
+            if _in_bounds(lat, lng):
+                result = (round(lat, 6), round(lng, 6))
+    except Exception:  # noqa: BLE001 - never let geocoding break the build
+        result = None
+    cache[query] = list(result) if result else None
+    time.sleep(1.1)  # be polite to Nominatim (max ~1 req/s)
+    return result
+
+
+def _road(address: str, name: str) -> str:
+    segs = [s.strip() for s in (address or name).split(",")
+            if s.strip() and s.strip() != "—"]
+    for s in segs:
+        if _ROAD_RE.search(s):
+            return s
+    return segs[0] if segs else ""
+
+
+def geocode(parish: str, name: str, address: str = "") -> tuple[float, float]:
+    """Best coords for a property: Nominatim road/parish, else parish centroid.
+
+    Tries the road+parish then the parish via Nominatim (cached). Falls back to
+    the parish centroid + deterministic jitter when nothing resolves in-island.
+    """
+    road = _road(address, name)
+    queries = []
+    if road:
+        queries.append(f"{road}, {parish}, Jersey")
+    for kw in LOCALITIES:  # try a known locality token if present
+        if kw in f"{name} {address}".lower():
+            queries.append(f"{kw}, Jersey")
+            break
+    for q in queries:
+        hit = _nominatim(q)
+        if hit:
+            return hit
+    return coords_for(parish, name, address)
 
 
 def coords_for(parish: str, name: str, address: str = "") -> tuple[float, float]:

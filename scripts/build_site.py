@@ -28,7 +28,11 @@ def main() -> None:
     enr = storage.load_enriched_rows()
     out = []
     scraped = 0
-    for r in enr:
+    geo_hits = 0
+    for i, r in enumerate(enr, 1):
+        if i % 100 == 0:
+            geocode.save_cache()
+            print(f"  ...{i}/{len(enr)} geocoded")
         name, address, parish = r["name"], r.get("address", ""), r.get("parish", "")
         brochures = [u for u in (r.get("brochure_pdfs") or "").split() if u]
         metrics = {}
@@ -43,7 +47,7 @@ def main() -> None:
             blob = f"{name} {address} {parish}".lower()
             if any(k in blob for k in SEA_KW):
                 metrics["sea_view"] = True
-        lat, lng = geocode.coords_for(parish, name, address)
+        lat, lng = geocode.geocode(parish, name, address)
         out.append({
             "name": name,
             "address": address,
@@ -67,6 +71,7 @@ def main() -> None:
             "lat": lat, "lng": lng,
         })
 
+    geocode.save_cache()
     os.makedirs(SITE_DIR, exist_ok=True)
     path = os.path.join(SITE_DIR, "data.json")
     with open(path, "w", encoding="utf-8") as f:
