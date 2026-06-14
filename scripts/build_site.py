@@ -24,29 +24,43 @@ SEA_KW = ("bay", "aubin", "ouaisne", "ouaisné", "gorey", "rozel", "brelade",
           "havre", "plage", "lecq", "bonne nuit", "bouley")
 
 
+def _load_json(path, default):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return default
+
+
 def main() -> None:
     enr = storage.load_enriched_rows()
+    manual = _load_json(os.path.join(config.DATA_DIR, "manual_search.json"), {})
+    local_broch = _load_json(os.path.join(SITE_DIR, "brochures", "index.json"), {})
     out = []
-    scraped = 0
-    geo_hits = 0
     for i, r in enumerate(enr, 1):
         if i % 100 == 0:
             geocode.save_cache()
             print(f"  ...{i}/{len(enr)} geocoded")
         name, address, parish = r["name"], r.get("address", ""), r.get("parish", "")
-        brochures = [u for u in (r.get("brochure_pdfs") or "").split() if u]
-        metrics = {}
-        if brochures:
-            metrics = fetch_metrics(brochures, r.get("notes", ""))
-            scraped += 1
-            time.sleep(config.REQUEST_DELAY_SECONDS)
-        else:
-            metrics = metrics_from_text(r.get("notes", ""))
-        # Island-wide sea-view hint from locality keywords (if not already set).
-        if "sea_view" not in metrics:
+        price = int(r["sale_price"]) if r.get("sale_price") else 0
+        key = f"{name}|{r.get('sale_date_iso','')}|{price}".lower()
+        m = manual.get(key, {})
+
+        # Metrics: prefer agent findings, fall back to mining the notes text.
+        metrics = dict(metrics_from_text(r.get("notes", "")))
+        for f in ("size_sqft", "bedrooms", "bathrooms", "acres", "what3words"):
+            if m.get(f) not in (None, "", []):
+                metrics[f] = m[f]
+        # Sea view: agent flag, else locality keyword heuristic.
+        sea = m.get("sea_view")
+        if sea is None:
             blob = f"{name} {address} {parish}".lower()
-            if any(k in blob for k in SEA_KW):
-                metrics["sea_view"] = True
+            sea = any(k in blob for k in SEA_KW)
+
+        # Brochures: locally-saved PDFs first, then remaining remote links.
+        remote = [u for u in (r.get("brochure_pdfs") or "").split() if u]
+        brochures = list(dict.fromkeys(local_broch.get(key, []) + remote))
+
         lat, lng = geocode.geocode(parish, name, address)
         out.append({
             "name": name,
@@ -65,7 +79,7 @@ def main() -> None:
             "bedrooms": metrics.get("bedrooms"),
             "bathrooms": metrics.get("bathrooms"),
             "acres": metrics.get("acres"),
-            "sea_view": bool(metrics.get("sea_view", False)),
+            "sea_view": bool(sea),
             "what3words": metrics.get("what3words", ""),
             "notes": r.get("notes", ""),
             "lat": lat, "lng": lng,
@@ -77,7 +91,10 @@ def main() -> None:
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"generated": time.strftime("%Y-%m-%d"),
                    "count": len(out), "properties": out}, f, ensure_ascii=False)
-    print(f"wrote {len(out)} properties -> {path} (brochure-scraped {scraped})")
+    n_ask = sum(1 for p in out if p["asking_price"])
+    n_bro = sum(1 for p in out if p["brochures"])
+    print(f"wrote {len(out)} properties -> {path} "
+          f"({n_ask} asking, {n_bro} brochures)")
 
 
 if __name__ == "__main__":
