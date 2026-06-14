@@ -98,6 +98,10 @@ class LiveIndex:
         token and that name carries enough signal (a >=4-char token, or two
         tokens) -- so re-listed ("flipped") properties are found without the
         parish-token false positives that plague loose overlap matching.
+
+        Identity is decided purely from address tokens: price is NEVER used, so
+        a match is kept regardless of how large the asking-vs-sold gap is (a home
+        that sold 50% below its asking is matched exactly like one that didn't).
         """
         name_toks = _norm_tokens(name)
         if not name_toks:

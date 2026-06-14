@@ -69,10 +69,12 @@ python3 scripts/run.py probe             # report which archive backends are rea
 ## Optional sources & their caveats
 
 - **`--live`** (flip detector): matches a sold property to a *currently on-market*
-  places.je listing by distinctive house-name tokens. Useful for spotting
-  re-listed ("flipped") homes — but it reports a **present-day** asking price,
-  *not* the asking price at the time of sale, and name collisions make it noisy.
-  Off by default.
+  places.je listing by distinctive house-name tokens. Matching is **identity-only —
+  price/discount is never used**, so a home that sold 50% below asking is matched
+  exactly like one that sold at asking (verified: live gaps span −89% to +17,100%,
+  none filtered). But it reports a **present-day** asking price (not the sale-time
+  asking), and generic house-names cause false positives, so treat it as a lead
+  generator, not ground truth. Off by default.
 - **`--wayback`**: `web.archive.org` (CDX + snapshot content) is blocked by egress
   in some sandboxes. The `archive.org` apex **Availability API** is usually still
   reachable and recovers a first-listed *date* (and an openable snapshot link)

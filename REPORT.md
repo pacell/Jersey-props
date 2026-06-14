@@ -22,20 +22,27 @@ _Generated 2026-06-14 from places.je. **985 transactions** at or above £2,000,0
 | £18,382,000 | 2025-04-25 | Silver Springs Care Home | — |
 | £17,500,000 | 2018-05-25 | The Grove | — |
 
-## Asking price vs sold (verified via agent listings/brochures)
+## Asking price vs sold (verified, measured against the ORIGINAL launch guide)
 
-| Property | Asking | Sold | Δ | Agent |
+| Property | Asking (original) | Sold | Δ | Agent |
 |---|---|---|---|---|
-| Gaspe House | OIEO £88,850,000 | £83,200,000 | -6.4% | — |
+| Clos de Coleron, St. Brelade | £12,500,000 (original; reduced to £9.9m) | £8,500,000 | -32.0% | Savills |
+| Baymont House (formerly called Sivalai | £9,950,000 | £8,500,000 | -14.6% | Broadlands |
 | LE VIVIER | £19,000,000 | £17,000,000 | -10.5% | Livingroom |
-| Firstly, a certain house now known as Ea | £16,500,000 | £15,100,000 | -8.5% | Fine & Country |
-| Baymont House (formerly called Sivalai a | £9,950,000 | £8,500,000 | -14.6% | Broadlands |
-| Clos de Coleron, St. Brelade | £9,900,000 (orig £12,500,000) | £8,500,000 | -14.1% | Savills |
+| Coline de Lavande (formerly ‘Wildwaysʼ | £35,000,000 (original guide) | £31,500,000 | -10.0% | Savills |
+| Firstly, a certain house now known as  | £16,500,000 | £15,100,000 | -8.5% | Fine & Country |
+| Gaspe House | OIEO £88,850,000 | £83,200,000 | -6.4% | — |
 
-_All 5 verified sales closed **below** asking (≈6–15% discount)._
+Discounts are computed against the **launch** guide where known (not a reduced re-quote), which is where the deepest cuts appear — e.g. Clos de Coleron launched at £12.5m, was cut to £9.9m, and sold at £8.5m (**−32%** vs launch).
+
+## Are large discounts captured? (matching methodology)
+
+Yes. Matching is decided **purely from address/house-name tokens — price is never used**, so a sale is never discarded for being a big discount. Proof: the live flip-detector returns matched asking-vs-sold gaps spanning **−89% to +17,100%**; none are filtered by size. Two honest caveats:
+
+- **Extreme `--live` gaps are mostly name-collision false positives** (e.g. a £21.5m 'Maison d'Or' vs a £125k namesake). The live detector is a *lead generator*, not ground truth — verify each before trusting it.
+- **The deepest *real* discounts need the original guide**, which places.je never publishes; it comes from news/brochures (per-property search). And some trophy deals close at an **undisclosed** price and never enter places.je at all — e.g. *Maison de la Valette* (Trinity) launched at **£39.95m** (Knight Frank, 2021), was cut to **£32m** (2023) and sold ~2024 for an undisclosed sum: a likely deep discount that is absent from the dataset.
 
 ## Transactions by year
-
 | Year | Count | Total value |
 |---|---|---|
 | 2026 | 32 | £150,815,172 |
@@ -66,7 +73,6 @@ _All 5 verified sales closed **below** asking (≈6–15% discount)._
 | 2001 | 14 | £49,993,000 |
 
 ## By parish (top 10)
-
 | Parish | Count |
 |---|---|
 | St. Brelade | 230 |
@@ -81,7 +87,6 @@ _All 5 verified sales closed **below** asking (≈6–15% discount)._
 | St. John | 46 |
 
 ## Selling agents (named transactions)
-
 | Agent | Count |
 |---|---|
 | Broadlands | 51 |
@@ -97,7 +102,7 @@ _All 5 verified sales closed **below** asking (≈6–15% discount)._
 | Benest Estates | 3 |
 | Troys | 3 |
 
-_Agent named on 254/985 transactions (731 unattributed on places.je)._
+_Agent named on 254/985 transactions._
 
 ## Brochures & source listings
 
@@ -106,7 +111,7 @@ _Agent named on 254/985 transactions (731 unattributed on places.je)._
 - **The Grove, St. Lawrence** — https://theislandwiki.org/index.php/The_Grove
 - **Clos de Coleron, St. Brelade** — https://www.broadlandsjersey.com/property/le-chemin-de-creux-st-brelade-je3/ , https://www.livingroomproperty.com/buy/property/2764
 - **Le Val Lodge (formerly Sea View House),** — https://issuu.com/livingroomestateagents/docs/le_val_lodge_brochure_2023_issuu
-- **Coline de Lavande (formerly ‘Wildwaysʼ)** — https://cdl-jersey.co.uk/ , https://search.savills.com/com/en/property-detail/gbjsrslac230209
+- **Coline de Lavande (formerly ‘Wildwaysʼ)** — https://app-street-live-public.s3.eu-west-1.amazonaws.com/properties/brochures/18999869/park-estate-la-route-des-genets-je3_ht7GLvqejZsX_2024-11-01-15-31-49.pdf , https://cdl-jersey.co.uk/ , https://search.savills.com/com/en/property-detail/gbjsrslac230209
 - **Beau Pré, St Mary** — https://www.livingroom.je/buy/property/115
 - **LE VIVIER** — https://www.livingroomproperty.com/buy/property/2944
 - **Firstly, a certain house now known as Eagle's ** — https://issuu.com/huntestates/docs/eagle_s_rest_-_brochure

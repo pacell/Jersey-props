@@ -44,7 +44,14 @@ def _slugify(text: str) -> str:
 
 
 def extract_asking_price(snapshot_html: str) -> Tuple[Optional[int], str]:
-    """Pull an asking price out of listing/brochure HTML (cue-word proximity)."""
+    """Pull an asking price out of listing/brochure HTML.
+
+    Selects the £ figure *closest* to a price cue word ("guide", "asking",
+    ...), NOT the largest -- picking the max would bias the asking price upward
+    and distort the asking-vs-sold discount. If no figure sits near a cue we
+    return nothing rather than guess, so genuine deep discounts are never
+    masked by an inflated asking price.
+    """
     if not snapshot_html:
         return None, ""
     try:
@@ -61,13 +68,17 @@ def extract_asking_price(snapshot_html: str) -> Tuple[Optional[int], str]:
     if not candidates:
         return (None, "Price on Application") if _POA_RE.search(text) else (None, "")
 
-    def cue(pos: int) -> int:
+    def cue_distance(pos: int) -> int:
         window = text[max(0, pos - 40):pos].lower()
-        return sum(1 for w in _CUE_WORDS if w in window)
+        hits = [window.rfind(w) for w in _CUE_WORDS if w in window]
+        return (len(window) - max(hits)) if hits else 10_000  # smaller = nearer
 
-    cued = [c for c in candidates if cue(c[2]) > 0]
-    best = max(cued or candidates, key=lambda c: c[0])
-    return best[0], best[1]
+    scored = [(cue_distance(pos), val, disp) for val, disp, pos in candidates]
+    near = [s for s in scored if s[0] < 10_000]
+    if not near:
+        return None, ""  # no cue-adjacent figure: do not guess
+    near.sort(key=lambda s: (s[0], -s[1]))  # nearest cue, then larger value
+    return near[0][1], near[0][2]
 
 
 def _exact_candidate_urls(sold: SoldProperty) -> list:

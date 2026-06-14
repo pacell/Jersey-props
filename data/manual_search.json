@@ -14,11 +14,14 @@
   },
   "coline de lavande (formerly ‘wildwaysʼ)|2025-04-04|31500000": {
     "brochure_pdfs": [
+      "https://app-street-live-public.s3.eu-west-1.amazonaws.com/properties/brochures/18999869/park-estate-la-route-des-genets-je3_ht7GLvqejZsX_2024-11-01-15-31-49.pdf",
       "https://cdl-jersey.co.uk/",
       "https://search.savills.com/com/en/property-detail/gbjsrslac230209"
     ],
-    "source": "https://cdl-jersey.co.uk/",
-    "notes": "Colline de Lavande (formerly 'Wildways'), ~15,000 sqft 'Mayfair' spec by Sir Winston Churchill Park. Savills 'Park Estate'. Dedicated marketing site."
+    "source": "https://app-street-live-public.s3.eu-west-1.amazonaws.com/properties/brochures/18999869/park-estate-la-route-des-genets-je3_ht7GLvqejZsX_2024-11-01-15-31-49.pdf",
+    "notes": "Colline de Lavande (formerly 'Wildways'), Park Estate, ~15,000 sqft 'Mayfair' spec. Original guide £35m (Savills brochure Nov 2024) -> sold £31.5m.",
+    "asking_price": 35000000,
+    "asking_price_display": "£35,000,000 (original guide)"
   },
   "le vivier|2024-09-06|17000000": {
     "asking_price": 19000000,
@@ -49,8 +52,8 @@
     "brochure_pdfs": [
       "https://www.broadlandsjersey.com/property/maison-dor/"
     ],
-    "source": "https://www.broadlandsjersey.com/property/maison-dor/",
-    "notes": "Above St Aubin's harbour. Marketed by Broadlands (Nigel Hurst) as 'finest property on the island'."
+    "source": "https://jerseyeveningpost.com/news/2025/10/29/luxury-st-aubin-house-could-be-in-top-tier-of-islands-most-expensive/",
+    "notes": "St Aubin; Broadlands (Nigel Hurst). Sold £21.5m in 2022; RE-LISTED 2025/26 at guide £28m (a +30% markup, not a discount). See JEP 2025-10-29."
   },
   "baymont house (formerly called sivalai and before that corrie point), st. brelade|2026-05-08|8500000": {
     "asking_price": 9950000,
@@ -63,14 +66,14 @@
     "notes": "Formerly Sivalai / Corrie Point, St Brelade above St Aubin (5-bed, pool/gym). Guide £9.95m (Zoopla/Gaudin) -> sold £8.5m via Broadlands."
   },
   "clos de coleron, st. brelade|2025-11-21|8500000": {
-    "asking_price": 9900000,
-    "asking_price_display": "£9,900,000 (orig £12,500,000)",
+    "asking_price": 12500000,
+    "asking_price_display": "£12,500,000 (original; reduced to £9.9m)",
     "source": "https://www.zoopla.co.uk/for-sale/details/63384067/",
     "brochure_pdfs": [
       "https://www.broadlandsjersey.com/property/le-chemin-de-creux-st-brelade-je3/",
       "https://www.livingroomproperty.com/buy/property/2764"
     ],
-    "notes": "Le Chemin de Creux, St Brelade, 5 acres in coastal national park, Arthur Grayson design. Savills asked £12.5m, reduced to £9.9m -> sold £8.5m."
+    "notes": "Le Chemin de Creux, St Brelade, 5 acres national park, Arthur Grayson design. Savills launched at £12.5m, reduced to £9.9m -> sold £8.5m (-32% vs launch)."
   },
   "st. mannelier with the cottage, st. saviour|2026-03-27|11492500": {
     "brochure_pdfs": [
