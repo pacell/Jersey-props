@@ -67,6 +67,25 @@ def cmd_enrich(args: argparse.Namespace) -> None:
     print(f"  {csv_path}")
 
 
+def cmd_probe(args: argparse.Namespace) -> None:
+    """Report which archive/live backends are reachable from this environment."""
+    from jersey_props.wayback import probe_backends
+    print("Archive backend reachability from this environment:\n")
+    checks = probe_backends()
+    for name, ok in checks.items():
+        print(f"  [{'OK ' if ok else 'XX '}] {name}")
+    if not checks.get("wayback_cdx (web.archive.org)"):
+        print(
+            "\nweb.archive.org (CDX + snapshot content) is unreachable here.\n"
+            "Full historical asking-price/brochure recovery needs it. Options:\n"
+            "  1. Run `enrich` on a machine where web.archive.org is reachable.\n"
+            "  2. Allowlist web.archive.org in the environment's network policy\n"
+            "     (see https://code.claude.com/docs/en/claude-code-on-the-web).\n"
+            "  3. The Availability API fallback (archive.org apex) still recovers\n"
+            "     first-on-market DATES for URLs it can resolve."
+        )
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description="Jersey sold-property scraper & cross-indexer")
     sub = p.add_subparsers(dest="command", required=True)
@@ -81,6 +100,9 @@ def main() -> None:
     e.add_argument("--stem", default="sold_2m_plus")
     e.add_argument("--limit", type=int, default=None)
     e.set_defaults(func=cmd_enrich)
+
+    pr = sub.add_parser("probe", help="Report which archive backends are reachable")
+    pr.set_defaults(func=cmd_probe)
 
     args = p.parse_args()
     args.func(args)

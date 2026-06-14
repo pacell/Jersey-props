@@ -52,6 +52,33 @@ Outputs:
   `enrich` stage on a machine where `web.archive.org` is reachable to get real
   cross-referenced results.
 
+## Wayback access workarounds
+
+`web.archive.org` (which serves the CDX discovery API **and** snapshot content)
+is blocked by egress policy in some sandboxes. Run `python3 scripts/run.py probe`
+to see what your environment can reach. Findings and fallbacks, best → worst:
+
+1. **Allowlist `web.archive.org`** in the environment's network policy
+   ([docs](https://code.claude.com/docs/en/claude-code-on-the-web)) — restores
+   the full CDX + content path. Cleanest fix if you own the environment.
+2. **Run `enrich` locally** — any normal machine reaches `web.archive.org`.
+3. **Availability API fallback (built in).** The `archive.org` *apex* is often
+   allowed even when the `web.archive.org` *subdomain* is blocked, and it serves
+   the [Availability API](https://archive.org/help/wayback_api.php). `wayback.py`
+   uses it to recover the **first-on-market date** and an **openable snapshot
+   URL** for any exact URL it can resolve. Limits: no wildcard discovery and no
+   snapshot HTML, so it yields dates/links, not asking prices, and only for URLs
+   that can be constructed (sold listings live at `/property/<numeric-id>`,
+   which isn't derivable from the address — so hit-rate is low without CDX).
+
+Alternatives that were tested and **don't help here**: Common Crawl index
+(`index.commoncrawl.org` refused connections), `arquivo.pt` (reachable but zero
+places.je captures), `archive.ph` (403), Memento TimeTravel aggregator (DNS
+unavailable). Note: the live places.je site and its `sitemap.xml` only carry
+**currently-listed** properties, so they can't supply history for sold ones.
+The scraper does **not** attempt to evade the egress filter (e.g. IP/SNI
+spoofing) — that would bypass a deliberate security control.
+
 ## Data captured per property
 
 **Stage 1 (always available):** `name`, `address`, `parish`, `sale_date` +

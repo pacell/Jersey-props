@@ -136,6 +136,70 @@ def find_brochure_pdfs(query_terms, *, host: str = "places.je",
     return out
 
 
+# --------------------------------------------------------------------------
+# Availability API fallback.
+#
+# Some egress policies allow the archive.org *apex* (which serves the
+# Availability API) while blocking the web.archive.org *subdomain* (which
+# serves the CDX server and snapshot content). The Availability API can't do
+# wildcard discovery or return snapshot HTML, but it WILL tell us the closest /
+# earliest snapshot of an *exact* URL plus an openable snapshot link -- enough
+# to recover a first-on-market date when CDX is unreachable.
+# --------------------------------------------------------------------------
+
+AVAILABILITY_URL = "https://archive.org/wayback/available"
+
+
+def availability(url: str, timestamp: str = "19950101") -> Optional[dict]:
+    """Return the snapshot closest to `timestamp` for an exact URL, or None.
+
+    Pass an early timestamp (the default) to get the *earliest* capture. The
+    returned dict has: timestamp, iso, original, snapshot_url, status.
+    """
+    q = urllib.parse.urlencode({"url": url, "timestamp": timestamp})
+    raw = fetch(f"{AVAILABILITY_URL}?{q}")
+    if not raw:
+        return None
+    try:
+        data = json.loads(raw)
+    except (ValueError, TypeError):
+        return None
+    snap = (data.get("archived_snapshots") or {}).get("closest")
+    if not snap or not snap.get("timestamp"):
+        return None
+    ts = snap["timestamp"]
+    return {
+        "timestamp": ts,
+        "iso": ts_to_iso(ts),
+        "original": url,
+        # Normalise to https; the API often returns an http:// snapshot URL.
+        "snapshot_url": (snap.get("url") or "").replace("http://", "https://", 1),
+        "status": snap.get("status", ""),
+    }
+
+
+def earliest_via_availability(url: str) -> Optional[dict]:
+    """Earliest archived capture of `url` via the apex Availability API."""
+    return availability(url, timestamp="19950101")
+
+
+def probe_backends() -> dict:
+    """Report which archive/live backends are reachable from this environment.
+
+    Returns {name: bool}. Lets callers (and the `probe` CLI command) explain
+    why enrichment is or isn't fully functional here.
+    """
+    checks = {
+        "wayback_cdx (web.archive.org)":
+            bool(cdx_search("example.com", limit=1)),
+        "availability_api (archive.org apex)":
+            availability("example.com") is not None,
+        "places_live (www.places.je)":
+            bool(fetch(config.BASE_URL + config.SOLD_PATH)),
+    }
+    return checks
+
+
 def ts_to_iso(timestamp: str) -> str:
     """Convert a Wayback "YYYYMMDDhhmmss" timestamp to "YYYY-MM-DD".
 

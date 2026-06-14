@@ -115,6 +115,28 @@ def _candidate_patterns(sold: SoldProperty) -> list:
     return out
 
 
+def _exact_candidate_urls(sold: SoldProperty) -> list:
+    """Exact (wildcard-free) places.je URLs to try against the Availability API.
+
+    These are best-effort guesses; the canonical listing URL is
+    /property/<numeric-id>, which can't be derived from name/address, so this
+    mainly helps properties that also have a slug-style archived URL.
+    """
+    name_slug = _slugify(sold.name)
+    combo = _slugify(f"{sold.name} {sold.address}")
+    urls = []
+    for slug in (name_slug, combo):
+        if slug:
+            urls.append(f"www.places.je/property/{slug}")
+    # De-duplicate, preserve order.
+    seen, out = set(), []
+    for u in urls:
+        if u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out
+
+
 def _matching_snapshots(sold: SoldProperty) -> list:
     """Return CDX rows whose original URL plausibly matches this property.
 
@@ -159,6 +181,26 @@ def enrich_property(sold: SoldProperty) -> EnrichedProperty:
         matches = _matching_snapshots(sold)
     except Exception as e:  # noqa: BLE001
         notes.append(f"snapshot search failed: {e}")
+
+    # Fallback: if CDX found nothing (e.g. web.archive.org is blocked by egress
+    # but the archive.org apex Availability API is reachable), try to recover at
+    # least the first-on-market DATE for any exact URLs we can construct. The
+    # Availability API can't do wildcard discovery, so this only hits when a
+    # constructed URL happens to be the real listing URL -- low yield for sold
+    # properties (whose listings live at /property/<numeric-id>), but free and
+    # graceful. See README for the full-content options.
+    if not matches:
+        try:
+            for url in _exact_candidate_urls(sold):
+                snap = wayback.earliest_via_availability(url)
+                if snap and snap.get("iso"):
+                    ep.first_listed_iso = snap["iso"]
+                    ep.first_listed_source = snap["snapshot_url"]
+                    notes.append("first-listed via Availability API "
+                                 "(date only; snapshot content not fetched)")
+                    break
+        except Exception as e:  # noqa: BLE001
+            notes.append(f"availability fallback failed: {e}")
 
     if matches:
         best_overlap = max(m.get("_overlap", 0) for m in matches)
