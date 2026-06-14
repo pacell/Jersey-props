@@ -19,7 +19,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Trinity JE3 5DR, 9-bed. No public agent/guide found (delisted)."
   },
   {
     "name": "Trelawney, St. Brelade",
@@ -32,16 +32,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 1,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3995000,
+    "asking_price_display": "£3,995,000",
+    "asking_price_source": "https://search.savills.com/property-detail/gbjsrsjes250019",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -990000,
+    "price_delta_pct": "-24.8",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills (JES250019). 6-bed near St Brelade's Bay. Guide £3.995m -> sold £3.005m (-25%)."
   },
   {
     "name": "Quatre Vents, St. Lawrence",
@@ -57,13 +57,13 @@
     "asking_price": "",
     "asking_price_display": "",
     "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
+    "first_listed_iso": "2025-01-21",
+    "first_listed_source": "https://www.broadlandsjersey.com/property/la-rue-des-murs-st-lawrence-je3/",
+    "days_on_market": 493,
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Broadlands, La Rue des Murs. 4-bed, panoramic St Aubin's Bay views. Listed Jan 2025. Asking not confirmed."
   },
   {
     "name": "Nouveaux Jours (formerly Les Pres Verts, originally 2 Laburnum), St. Mary",
@@ -85,7 +85,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Knight Frank/Wilsons, St Mary (inland). Price not indexed."
   },
   {
     "name": "Maison Icho, St. Clement",
@@ -98,16 +98,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 1,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 2450000,
+    "asking_price_display": "£2,450,000 (orig; cut to £2.35m)",
+    "asking_price_source": "https://app-street-live-public.s3.eu-west-1.amazonaws.com/properties/brochures/21654013/pontac-common-st-clement-je2_Uba5iNgi6fx_2025-01-07-11-13-35.pdf",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -250000,
+    "price_delta_pct": "-10.2",
+    "brochure_pdfs": "https://app-street-live-public.s3.eu-west-1.amazonaws.com/properties/brochures/30815199/maison-icho_Uba5iNgi6fx_2025-06-17-09-34-52.pdf https://media.onthemarket.com/properties/16341256/1563366557/document-0.pdf",
+    "notes": "Pontac Common beachfront, St Clement. 3-bed. Orig £2.45m (Jan 2025) -> £2.35m -> sold £2.2m (-10% vs launch)."
   },
   {
     "name": "Malorey House (formerly known as La Maison de Guingeval), St. Lawrence",
@@ -120,16 +120,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 1,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4950000,
+    "asking_price_display": "£4,950,000",
+    "asking_price_source": "https://search.savills.com/je/en/property-detail/gbjsrsjes240127",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -700000,
+    "price_delta_pct": "-14.1",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills (JES240127). 7-bed. Guide £4.95m -> sold £4.25m (-14%)."
   },
   {
     "name": "Vine House, St. Martin",
@@ -151,7 +151,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Maistre Estates, Le Mont de Gouray. 4-bed coastal, Gorey Harbour/Castle views. Asking not confirmed."
   },
   {
     "name": "Baymont House (formerly called Sivalai and before that Corrie Point), St. Brelade",
@@ -166,14 +166,14 @@
     "source_page": 1,
     "asking_price": 9950000,
     "asking_price_display": "£9,950,000",
-    "asking_price_source": "https://www.zoopla.co.uk/for-sale/details/70454189/",
+    "asking_price_source": "https://www.broadlandsjersey.com/property/baymont-house/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
     "price_delta": -1450000,
     "price_delta_pct": "-14.6",
     "brochure_pdfs": "https://www.broadlandsjersey.com/property/baymont-house/ https://www.places.je/property/56894",
-    "notes": "Formerly Sivalai / Corrie Point, St Brelade above St Aubin (5-bed, pool/gym). Guide £9.95m (Zoopla/Gaudin) -> sold £8.5m via Broadlands."
+    "notes": "Broadlands. 5-bed, sea views over St Aubin's Bay, pool/gym. Guide £9.95m -> sold £8.5m (-15%)."
   },
   {
     "name": "Apartment 3, One St. Brelade, St. Brelade",
@@ -194,8 +194,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://www.onestbrelade.je/wp-content/uploads/2019/11/OSB-Apartment-3-Plans.pdf",
+    "notes": "Savills/Broadlands One St Brelade dev. 2-bed, sea views over St Brelade's Bay."
   },
   {
     "name": "Apartment 6, One St. Brelade, St. Brelade",
@@ -208,16 +208,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 1,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3950000,
+    "asking_price_display": "£3,950,000",
+    "asking_price_source": "https://www.broadlandsjersey.com/one-st-brelade/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -350000,
+    "price_delta_pct": "-8.9",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "One St Brelade Apt 6, 1st floor, 3-bed 2,282 sqft, bay views. Guide £3.95m -> sold £3.6m."
   },
   {
     "name": "Apartment 9, One St. Brelade, St. Brelade",
@@ -239,7 +239,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "One St Brelade Apt 9, ground floor, 3-bed, bay views. Guide ~£3.95m (unconfirmed)."
   },
   {
     "name": "Share 7, Stewart Nicolle Flats and Marks & Spencer St. Clement, St. Clement",
@@ -261,7 +261,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Share transfer / commercial. Not on residential portals."
   },
   {
     "name": "Roche Mouette (previously California), St. Brelade",
@@ -277,13 +277,13 @@
     "asking_price": "",
     "asking_price_display": "",
     "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
+    "first_listed_iso": "2015-01-01",
+    "first_listed_source": "https://search.savills.com/property-detail/gbjsrsjes150036",
+    "days_on_market": 4138,
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills, La Rue du Grouet. St Ouen's Bay views. On/off market since ~2015 (as 'California'). Guide not retrievable (403)."
   },
   {
     "name": "Beau Desert with Beau Desert Lodge, St. Saviour",
@@ -305,7 +305,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills. Historic manor (1400s) + Victorian tower, St Saviour. Guide not public (403)."
   },
   {
     "name": "Cote de la Rigondaine, Grouville",
@@ -318,16 +318,16 @@
     "agent": "Gaudin & Co",
     "agent_slug": "gaudin-and-co",
     "source_page": 1,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 2575000,
+    "asking_price_display": "£2,575,000",
+    "asking_price_source": "https://www.onthemarket.com/details/18217720/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -215000,
+    "price_delta_pct": "-8.3",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Gaudin & Co. 5-bed, 4,158 sqft, Queen's Valley/ocean views. Guide £2.575m -> sold £2.36m (-8%)."
   },
   {
     "name": "St. Mannelier with the Cottage, St. Saviour",
@@ -340,16 +340,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 1,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "asking_price": 12950000,
+    "asking_price_display": "£12,950,000",
+    "asking_price_source": "https://search.savills.com/property-detail/gbjsrsjes230127",
+    "first_listed_iso": "2023-01-01",
+    "first_listed_source": "https://search.savills.com/property-detail/gbjsrsjes230127",
+    "days_on_market": 1181,
+    "price_delta": -1457500,
+    "price_delta_pct": "-11.3",
     "brochure_pdfs": "https://search.savills.com/property-detail/gbjsrsjes230127",
-    "notes": "St Saviour country house (5-bed, ~10 min from St Helier). Marketed by Savills."
+    "notes": "Savills. 5-bed country house + cottage. Guide £12.95m -> sold £11.49m (-11%)."
   },
   {
     "name": "Hotel Savoy, St. Helier",
@@ -362,16 +362,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 1,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "asking_price": 6250000,
+    "asking_price_display": "£6,250,000 (commercial guide)",
+    "asking_price_source": "https://queree.je",
+    "first_listed_iso": "2025-05-29",
+    "first_listed_source": "https://queree.je",
+    "days_on_market": 302,
+    "price_delta": -1750000,
+    "price_delta_pct": "-28.0",
+    "brochure_pdfs": "https://queree.je/wp-content/uploads/2025/03/SAVOY-HOTEL-AGENCY-DETAILS-2025.pdf",
+    "notes": "Commercial hotel (55 rooms), St Helier. Queree. Guide £6.25m -> sold £4.5m."
   },
   {
     "name": "3 Royal Bay Gardens, Grouville",
@@ -393,7 +393,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Royal Bay Gardens, Grouville. No public listing for No.3."
   },
   {
     "name": "Le Coin, 1 Le Coin Cottages and 2 Le Coin Cottages, St. Brelade",
@@ -406,16 +406,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 1,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 19000000,
+    "asking_price_display": "£19,000,000 (orig F&C guide)",
+    "asking_price_source": "https://www.fineandcountry.co.uk/insights/blog/britains-most-expensive-houses-jersey",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -7000000,
+    "price_delta_pct": "-36.8",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Fine & Country £19m (Channel 4 feature); Savills concurrent £16m. 4-acre estate, ~14,000 sqft. Sold £12m (-37% vs £19m)."
   },
   {
     "name": "Les Rosiers, St. Clement",
@@ -437,7 +437,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Broadlands, La Rue du Pontlietaut. 4 ensuite beds. Asking not indexed."
   },
   {
     "name": "La Solitude Farm, St. Lawrence",
@@ -450,16 +450,16 @@
     "agent": "Gaudin & Co",
     "agent_slug": "gaudin-and-co",
     "source_page": 2,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3950000,
+    "asking_price_display": "£3,950,000",
+    "asking_price_source": "https://www.gaudin.je/property/5-bed-detached-house-for-sale-in-st-lawrence/949",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -800000,
+    "price_delta_pct": "-20.3",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Gaudin & Co. Grade 3 listed granite, 5-bed, pool. Guide £3.95m -> sold £3.15m (-20%)."
   },
   {
     "name": "Jersey Bowl, St. Peter",
@@ -481,7 +481,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial (bowling alley). No public price/agent."
   },
   {
     "name": "La Sabliere (formerly known as Wichwood), St. Clement",
@@ -503,7 +503,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Gaudin & Co, coastal St Clement road. Asking not public."
   },
   {
     "name": "Willow Lodge (formerly Windsor Lodge), Grouville",
@@ -525,7 +525,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Hunt Estates, La Rue A Don Grouville. Asking not public."
   },
   {
     "name": "Rockvale, St. Lawrence",
@@ -547,7 +547,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Rockvale, Le Mont Cambrai JE3 1JN. Savills. Guide not public (403)."
   },
   {
     "name": "Share 2, 14 Gloucester Street, St. Helier",
@@ -569,7 +569,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Share transfer, not publicly listed. Likely commercial/whole-building."
   },
   {
     "name": "Mourier Farm,",
@@ -591,7 +591,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Chemin des Hougues, St John JE3 4AP. No public listing/brochure found."
   },
   {
     "name": "Centenary House, Centenary Court and Style House,",
@@ -613,7 +613,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial office address, St Peter. No residential listing."
   },
   {
     "name": "M&S Simply Food, St. John (formerly known as Melbourne Garage),",
@@ -635,7 +635,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial retail unit (M&S Simply Food). No public price/agent."
   },
   {
     "name": "St. Peter’s House,",
@@ -648,16 +648,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 2,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "asking_price": 8950000,
+    "asking_price_display": "£8,950,000",
+    "asking_price_source": "https://beachandcountry.co.uk/properties/spectacular-country-estate/",
+    "first_listed_iso": "2021-07-07",
+    "first_listed_source": "https://beachandcountry.co.uk/properties/spectacular-country-estate/",
+    "days_on_market": 1654,
+    "price_delta": -950000,
+    "price_delta_pct": "-10.6",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Fine & Country. ~13,000 sqft manor, 8-bed, Grade 3 listed, inland. Guide £8.95m -> sold £8m (-11%). First listed ~2021."
   },
   {
     "name": "Santa Cruz (formerly ‘Innishowen’),",
@@ -679,7 +679,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Fine & Country, Les Varines St Saviour. Listing removed post-sale. No public price."
   },
   {
     "name": "La Porte, St. John",
@@ -701,7 +701,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Rossignol Estates. Historic Grade 3 farm, ~700yrs same family. Asking not public."
   },
   {
     "name": "The Byre",
@@ -723,7 +723,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Gaudin & Co. Listing removed post-sale. No public price."
   },
   {
     "name": "13-14 Esplanade,",
@@ -745,7 +745,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial Grade-A offices, Esplanade. Freehold investment sale; no public guide."
   },
   {
     "name": "The Grove, St. Lawrence",
@@ -767,7 +767,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "https://theislandwiki.org/index.php/The_Grove",
-    "notes": "Sold to Steve Morgan (Redrow founder) for £38m. Agent Fine & Country. No public guide price found."
+    "notes": "The Grove, Le Mont Cambrai JE3 1JN, sold £38m (Jersey record). Fine & Country. Guide not public."
   },
   {
     "name": "Mount Grove, St. Lawrence",
@@ -789,7 +789,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills, La Rue de la Blanche Pierre. Guide not confirmed (~£5m, low confidence)."
   },
   {
     "name": "1 Vantage, St. Martin",
@@ -802,16 +802,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 2,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 2850000,
+    "asking_price_display": "£2,850,000",
+    "asking_price_source": "https://www.livingroomproperty.com/developments/vantage",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": 0,
+    "price_delta_pct": "0.0",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Vantage dev, Le Mont de Gouray. 3-bed 2,443 sqft, views over Gorey Harbour/Castle. Guide £2.85m -> sold £2.85m."
   },
   {
     "name": "Tides Reach, St. Brelade",
@@ -824,16 +824,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 2,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3550000,
+    "asking_price_display": "£3,550,000",
+    "asking_price_source": "https://search.savills.com/property-detail/gbjsrsjes220061",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -1150000,
+    "price_delta_pct": "-32.4",
+    "brochure_pdfs": "https://media.onthemarket.com/properties/6210460/1337022340/document-0.pdf",
+    "notes": "Savills, La Neuve Route. 6-bed (4+2 apt), 5,439 sqft, St Aubin's Bay views. Guide £3.55m -> sold £2.4m (-32%)."
   },
   {
     "name": "La Rochelle, Grouville",
@@ -846,16 +846,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 3,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3950000,
+    "asking_price_display": "£3,950,000",
+    "asking_price_source": "https://www.onthemarket.com/details/6233086/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -50000,
+    "price_delta_pct": "-1.3",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills. 6-bed, ~6,300 sqft, sea views, refurb 2024. Guide £3.95m -> sold £3.9m."
   },
   {
     "name": "Cimandis House, St. Saviour",
@@ -876,8 +876,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://queree.je/wp-content/uploads/2025/06/Cimandis-House-Warehouse-Unit-La-Rue-des-Pres-St-Saviour-AGENCY-DETAILS-2025.pdf",
+    "notes": "Commercial warehouse, La Rue des Pres trading estate. Queree Property Consultants."
   },
   {
     "name": "Clos de Coleron, St. Brelade",
@@ -890,16 +890,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 3,
-    "asking_price": 12500000,
-    "asking_price_display": "£12,500,000 (original; reduced to £9.9m)",
-    "asking_price_source": "https://www.zoopla.co.uk/for-sale/details/63384067/",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": -4000000,
-    "price_delta_pct": "-32.0",
-    "brochure_pdfs": "https://www.broadlandsjersey.com/property/le-chemin-de-creux-st-brelade-je3/ https://www.livingroomproperty.com/buy/property/2764",
-    "notes": "Le Chemin de Creux, St Brelade, 5 acres national park, Arthur Grayson design. Savills launched at £12.5m, reduced to £9.9m -> sold £8.5m (-32% vs launch)."
+    "asking_price": 15000000,
+    "asking_price_display": "£15,000,000 (orig 2022; cut to £12.5m, then £9.99m)",
+    "asking_price_source": "https://jerseyeveningpost.com/news/2025/01/12/save-5m-in-january-sale-of-house-owned-by-boots-family-descendant/",
+    "first_listed_iso": "2022-06-01",
+    "first_listed_source": "https://jerseyeveningpost.com/news/2025/01/12/save-5m-in-january-sale-of-house-owned-by-boots-family-descendant/",
+    "days_on_market": 1269,
+    "price_delta": -6500000,
+    "price_delta_pct": "-43.3",
+    "brochure_pdfs": "https://search.savills.com/property-detail/gbjsrsjes230140",
+    "notes": "Boots-family estate, St Brelade's Bay, 5 acres, beach access, Arthur Grayson 1963. Launched £15m (Hunt Estates 2022) -> £12.5m (Savills 2024) -> £9.99m (2025) -> sold £8.5m (-43% vs launch)."
   },
   {
     "name": "The Brambles (to be known as Chough House), St. Brelade",
@@ -921,7 +921,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Le Mont du Ouaisne, St Brelade. No public listing (off-market/de-indexed)."
   },
   {
     "name": "Les Ruelles (formerly ‘Burfield’ and before that ‘Les Ruettes’),",
@@ -934,16 +934,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 3,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 2850000,
+    "asking_price_display": "£2,850,000",
+    "asking_price_source": "https://www.onthemarket.com/details/13039308/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -390000,
+    "price_delta_pct": "-13.7",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills (JES230078), St John. 7-bed Georgian, 4,510 sqft. Guide £2.85m -> sold £2.46m (-14%)."
   },
   {
     "name": "Clos Tranquil (previously called ‘Beauvoir’),",
@@ -956,16 +956,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 3,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3300000,
+    "asking_price_display": "£3,300,000",
+    "asking_price_source": "https://search.savills.com/property-detail/gbjsrsjes250105",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -321500,
+    "price_delta_pct": "-9.7",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills (Beauvoir->Clos Tranquil). 4-bed, panoramic St Aubin's Bay views. Guide £3.3m -> sold £2.98m (-10%)."
   },
   {
     "name": "La Maison Clairval,",
@@ -987,7 +987,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "St Saviour JE2 7HJ, 6-bed. No public asking/brochure."
   },
   {
     "name": "Haut du Mont Farm (formerly Haut du Mont),",
@@ -1000,16 +1000,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 3,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 7250000,
+    "asking_price_display": "£7,250,000",
+    "asking_price_source": "https://www.onthemarket.com/details/17156210/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -725000,
+    "price_delta_pct": "-10.0",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Broadlands & Savills. 8-bed + cottage, 9,236 sqft, St Aubin's Bay views. Guide £7.25m -> sold £6.525m (-10%)."
   },
   {
     "name": "Amberley,",
@@ -1022,16 +1022,16 @@
     "agent": "Fine & Country",
     "agent_slug": "fine-and-country",
     "source_page": 3,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4650000,
+    "asking_price_display": "£4,650,000",
+    "asking_price_source": "https://www.onthemarket.com/details/13338589/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -500000,
+    "price_delta_pct": "-10.8",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills. 5-bed, 6,225 sqft, rural St Martin. Guide £4.65m -> sold £4.15m (-11%)."
   },
   {
     "name": "19 Esplanade, 20 Esplanade, 21 Esplanade, and 34 Commercial Street,",
@@ -1053,7 +1053,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial offices, The Esplanade. No public guide/agent."
   },
   {
     "name": "Clos des Arbres,",
@@ -1074,8 +1074,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://www.livingroomproperty.com/property/brochure/3590",
+    "notes": "Livingroom (POA). 7-bed, 2.4 acres, pool. Sold £2.175m."
   },
   {
     "name": "Trinity House with the land called ‘Le Court Catel’ bearing field number 797 on the Jersey Digital Map,",
@@ -1096,8 +1096,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://1-content-s3-estateweb.s3.amazonaws.com/assets/9157/of/4/pro/30488055/documents/1.pdf",
+    "notes": "Le Maistre Estates. Planning consent for 5,600 sqft granite house, 4-bed."
   },
   {
     "name": "Waypoint (formerly ‘La Caumine’),",
@@ -1110,16 +1110,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 3,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 4250000,
+    "asking_price_display": "£4,250,000",
+    "asking_price_source": "https://www.knightfrank.co.uk/properties/residential/for-sale/waypoint-le-mont-gras-d-eau-st-brelade/wils3673",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -25000,
+    "price_delta_pct": "-0.6",
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES230071/JES230071_JES23000366.PDF",
+    "notes": "Knight Frank/Wilsons & Savills, Le Mont Gras d'Eau. Guide £4.25m -> sold £4.225m."
   },
   {
     "name": "4 Royal Bay Gardens,",
@@ -1132,16 +1132,16 @@
     "agent": "Broadlands",
     "agent_slug": "broadlands",
     "source_page": 3,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 2250000,
+    "asking_price_display": "£2,250,000",
+    "asking_price_source": "https://alexandercarmine.com/jersey-property-market-analysis-12th-september-2025/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -100000,
+    "price_delta_pct": "-4.4",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Broadlands, Grouville. 4-bed. Asking £2.25m -> sold £2.15m."
   },
   {
     "name": "La Maison des Banques,",
@@ -1163,7 +1163,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "St Saviour. No public listing/brochure found."
   },
   {
     "name": "La Cigale,",
@@ -1184,8 +1184,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES110082/JES110082_JES19000532.PDF",
+    "notes": "Savills, La Rue du Douet St Ouen. 4-bed granite. Brochure PDF (older ref). Asking not confirmed."
   },
   {
     "name": "3 Martel View,",
@@ -1207,7 +1207,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Martel View dev, Le Mont de la Rocque St Brelade. No public listing for No.3 (others had sea views)."
   },
   {
     "name": "La Ville au Bas Lodge,",
@@ -1229,7 +1229,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Livingroom, St Lawrence. Asking not found."
   },
   {
     "name": "La Ville au Bas,",
@@ -1242,16 +1242,16 @@
     "agent": "Livingroom",
     "agent_slug": "livingroom",
     "source_page": 4,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
-    "first_listed_iso": "",
-    "first_listed_source": "",
-    "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "asking_price": 5000000,
+    "asking_price_display": "£5,000,000",
+    "asking_price_source": "https://www.onthemarket.com/details/16340763/",
+    "first_listed_iso": "2025-06-06",
+    "first_listed_source": "https://www.onthemarket.com/details/16340763/",
+    "days_on_market": 84,
+    "price_delta": -400000,
+    "price_delta_pct": "-8.0",
+    "brochure_pdfs": "https://media.onthemarket.com/properties/16340763/1557086461/document-0.pdf",
+    "notes": "Broadlands (Livingroom on record). 5-bed, 6,458 sqft, inland. Guide £5m -> sold £4.6m (-8%). Listed Jun 2025."
   },
   {
     "name": "Bay Tree House,",
@@ -1273,7 +1273,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Gaudin & Co. New build, 3 ensuite, panoramic St Aubin's Bay views. Guide not found."
   },
   {
     "name": "Le Val Lodge (formerly Sea View House),",
@@ -1286,16 +1286,16 @@
     "agent": "Broadlands",
     "agent_slug": "broadlands",
     "source_page": 4,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 16250000,
+    "asking_price_display": "£16,250,000",
+    "asking_price_source": "https://www.onthemarket.com/details/13485421/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "https://issuu.com/livingroomestateagents/docs/le_val_lodge_brochure_2023_issuu",
-    "notes": "Formerly 'Sea View House', St Brelade (Ouaisne bay), remodelled 2017. Livingroom brochure 2023; sold via Broadlands 2025."
+    "price_delta": -3250000,
+    "price_delta_pct": "-20.0",
+    "brochure_pdfs": "https://issuu.com/livingroomestateagents/docs/le_val_lodge_brochure_2023_issuu https://media.onthemarket.com/properties/8978663/1352426914/document-0.pdf",
+    "notes": "Livingroom. 8-bed, SW sea views over Ouaisne/St Brelade's Bay. Guide £16.25m -> sold £13m (-20%)."
   },
   {
     "name": "Highland House,",
@@ -1317,7 +1317,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Highland House, St Lawrence. Fine & Country. Guide not public."
   },
   {
     "name": "La Cachette, St. Peter",
@@ -1330,16 +1330,16 @@
     "agent": "Livingroom",
     "agent_slug": "livingroom",
     "source_page": 4,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 2350000,
+    "asking_price_display": "£2,350,000",
+    "asking_price_source": "https://www.livingroomproperty.com/buy/property/4451",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -350000,
+    "price_delta_pct": "-14.9",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Livingroom. 6-bed, 4,159 sqft, gated. Asking £2.35m -> sold £2.0m (-15%)."
   },
   {
     "name": "Talana Hotel (formerly 1, 2 and 3 Villiers Place), St. Saviour",
@@ -1361,7 +1361,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Commercial hotel (42 rooms), St Saviour. Guide £2m."
   },
   {
     "name": "Little Orchard,",
@@ -1374,16 +1374,16 @@
     "agent": "Livingroom",
     "agent_slug": "livingroom",
     "source_page": 4,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 1995000,
+    "asking_price_display": "£1,995,000",
+    "asking_price_source": "https://www.livingroomproperty.com/buy/property/4527",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": 255000,
+    "price_delta_pct": "12.8",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Livingroom, Le Mont Cochon. 4-bed, 3,391 sqft, St Aubin's Bay views. Asking £1.995m -> sold £2.25m (+13%, OVER asking)."
   },
   {
     "name": "La Fontaine Martin,",
@@ -1396,16 +1396,16 @@
     "agent": "Savills",
     "agent_slug": "savills",
     "source_page": 4,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 3750000,
+    "asking_price_display": "£3,750,000",
+    "asking_price_source": "https://search.savills.com/it/en/property-detail/gbjsrsjes230007",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -250000,
+    "price_delta_pct": "-6.7",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills (JES230007), St Ouen, 4-bed 3.24ac, sea views. Guide £3.75m -> sold £3.5m."
   },
   {
     "name": "Bourg House,",
@@ -1418,16 +1418,16 @@
     "agent": "",
     "agent_slug": "",
     "source_page": 4,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 2250000,
+    "asking_price_display": "£2,250,000",
+    "asking_price_source": "https://alexandercarmine.com/jersey-property-market-analysis-4th-july2025/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
+    "price_delta": -220000,
+    "price_delta_pct": "-9.8",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Grouville granite listed, 5-bed + cottage. Asking £2.25m -> sold £2.03m (-10%)."
   },
   {
     "name": "Cliffside House,",
@@ -1449,7 +1449,7 @@
     "price_delta": "",
     "price_delta_pct": "",
     "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "notes": "Savills (JES240153), La Rue du Catel, Trinity. Guide not recoverable (403)."
   },
   {
     "name": "Domaine de la Valette (formerly known as ‘La Valette Farm’),",
@@ -1470,8 +1470,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://issuu.com/livingroomestateagents/docs/domaine_de_la_valette",
+    "notes": "Knight Frank. St John, ~10-bed, 18.5 acres, north-coast. Asking unconfirmed (NB different from the La Rue de Sorel 'Domaine de la Valette')."
   },
   {
     "name": "La Carre de Choux (formerly ‘Elgon’),",
@@ -1484,16 +1484,16 @@
     "agent": "Hunt Estates",
     "agent_slug": "hunt-estates",
     "source_page": 4,
-    "asking_price": "",
-    "asking_price_display": "",
-    "asking_price_source": "",
+    "asking_price": 2350000,
+    "asking_price_display": "£2,350,000",
+    "asking_price_source": "https://www.onthemarket.com/details/14698374/",
     "first_listed_iso": "",
     "first_listed_source": "",
     "days_on_market": "",
-    "price_delta": "",
-    "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "price_delta": -125000,
+    "price_delta_pct": "-5.3",
+    "brochure_pdfs": "https://media.onthemarket.com/properties/14698374/1501753590/document-0.pdf",
+    "notes": "Broadlands, 9 La Petite Ruette. 5-bed, 3,000 sqft, St Ouen's Bay views. Guide £2.35m -> sold £2.225m (-5%)."
   },
   {
     "name": "L'Abri",
@@ -1514,8 +1514,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://assets.savills.com/properties/GBJSRSJES170268/JES170268_JES19000156.PDF",
+    "notes": "Savills, Le Chemin de Herupe St John. Brochure PDF (older ref). Asking not confirmed."
   },
   {
     "name": "Oak Farm",
@@ -1536,8 +1536,8 @@
     "days_on_market": "",
     "price_delta": "",
     "price_delta_pct": "",
-    "brochure_pdfs": "",
-    "notes": "no listing data found in any source"
+    "brochure_pdfs": "https://www.livingroomproperty.com/property/brochure/4307",
+    "notes": "Livingroom (POA). Granite farmhouse, 5-bed, 3,157 sqft, stabling. Sold £2.4m."
   },
   {
     "name": "3 Miramar",
