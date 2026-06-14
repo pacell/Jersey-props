@@ -1,0 +1,5 @@
+# This project intentionally uses only the Python standard library
+# (urllib, re, html, csv, json, dataclasses) so it runs in locked-down
+# sandboxes with no `pip install` step. Python 3.10+ required.
+#
+# No third-party runtime dependencies.
