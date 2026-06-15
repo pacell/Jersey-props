@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="theme-color" content="#0b1220"/>
+<title>Jersey Prime — £2m+ Sold</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+:root{
+  --bg:#0b1220; --bg2:#0f1830; --card:#141f3a; --card2:#1c2a4a; --line:#26334f;
+  --txt:#eef2fb; --mut:#93a1be; --accent:#56c2ff; --gold:#e6c068;
+  --good:#37d39a; --bad:#ff7a7a; --r:16px; --r2:11px;
+  --sh:0 6px 22px rgba(0,0,0,.35); --safe:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:linear-gradient(180deg,#0b1220,#0a0f1c 240px) fixed;color:var(--txt);
+  font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--accent);text-decoration:none}
+button,select,input{font:inherit;color:inherit}
+
+header{position:sticky;top:0;z-index:1000;backdrop-filter:blur(12px);
+  background:rgba(11,18,32,.86);border-bottom:1px solid var(--line);padding:max(10px,env(safe-area-inset-top)) 14px 10px}
+.brand{display:flex;align-items:baseline;gap:8px;margin-bottom:10px}
+.brand h1{margin:0;font-size:18px;font-weight:750;letter-spacing:.2px}
+.brand .dot{color:var(--gold)}
+.brand small{color:var(--mut);font-size:12px;margin-left:auto;text-align:right}
+
+.seg{display:flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px;margin-bottom:10px}
+.seg button{flex:1;border:0;background:none;color:var(--mut);padding:8px;border-radius:999px;font-weight:650;font-size:14px;transition:.15s}
+.seg button.on{background:linear-gradient(180deg,#2b3e66,#223457);color:#fff;box-shadow:var(--sh)}
+
+.search{position:relative;margin-bottom:8px}
+.search input{width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:11px 12px 11px 38px;font-size:15px}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:17px;height:17px;fill:var(--mut)}
+.controls{display:flex;gap:7px}
+.controls select{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:11px;padding:9px 8px;font-size:13px}
+.chips{display:flex;gap:7px;margin-top:8px}
+.fchip{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;background:var(--card);
+  border:1px solid var(--line);border-radius:11px;padding:8px;font-size:12.5px;color:var(--mut);font-weight:600;transition:.15s}
+.fchip.on{background:rgba(86,194,255,.14);border-color:var(--accent);color:#cdebff}
+.fchip input{display:none}
+
+.stat{display:flex;gap:14px;padding:9px 16px 2px;color:var(--mut);font-size:12px}
+.stat b{color:var(--txt);font-weight:700}
+
+main{padding:8px 12px calc(40px + var(--safe))}
+#map{height:calc(100vh - 280px);min-height:340px;border-radius:var(--r);overflow:hidden;border:1px solid var(--line)}
+
+.card{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:11px;margin-bottom:10px;box-shadow:var(--sh);transition:transform .12s,border-color .12s;cursor:pointer}
+.card:active{transform:scale(.985);border-color:#33507e}
+.thumb{flex:0 0 96px;width:96px;height:96px;border-radius:var(--r2);object-fit:cover;background:var(--card2)}
+.thumb.ph{display:flex;align-items:center;justify-content:center;font-size:30px;color:#37496e}
+.body{flex:1;min-width:0;display:flex;flex-direction:column}
+.row1{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.nm{font-weight:700;font-size:14.5px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pa{color:var(--mut);font-size:12px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.price{text-align:right;flex:0 0 auto}
+.price .v{font-weight:800;font-size:15.5px;white-space:nowrap}
+.price .d{font-size:11px;color:var(--mut)}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto;padding-top:8px}
+.tag{font-size:11px;padding:3px 8px;border-radius:999px;background:var(--card2);color:var(--mut);white-space:nowrap}
+.tag.gold{color:var(--gold)}
+.tag.sea{color:#7fd6ff}
+.pill{font-size:11px;font-weight:800;padding:3px 8px;border-radius:999px}
+.pill.dn{background:rgba(255,122,122,.16);color:var(--bad)}
+.pill.up{background:rgba(55,211,154,.16);color:var(--good)}
+.empty{color:var(--mut);text-align:center;margin-top:48px}
+#more{height:40px}
+
+dialog{background:var(--bg2);color:var(--txt);border:1px solid var(--line);border-radius:20px;
+  max-width:96vw;width:480px;padding:0;box-shadow:0 24px 60px rgba(0,0,0,.6)}
+dialog::backdrop{background:rgba(3,7,15,.7);backdrop-filter:blur(3px)}
+.hero{position:relative}
+.hero img{width:100%;height:210px;object-fit:cover;display:block;border-radius:20px 20px 0 0;background:var(--card2)}
+.hero .fade{position:absolute;inset:0;border-radius:20px 20px 0 0;background:linear-gradient(180deg,rgba(0,0,0,.1),rgba(15,24,48,.85))}
+.hero .htxt{position:absolute;left:16px;right:16px;bottom:12px}
+.hero h2{margin:0;font-size:18px;font-weight:750;text-shadow:0 2px 8px rgba(0,0,0,.6)}
+.hero .ha{color:#dbe5f7;font-size:12.5px;text-shadow:0 1px 6px rgba(0,0,0,.7)}
+.x{position:absolute;top:10px;right:12px;font-size:20px;color:#fff;background:rgba(0,0,0,.5);
+  border:0;border-radius:50%;width:34px;height:34px}
+.dlg{padding:14px 16px 18px}
+.pricebar{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.pricebar .big{font-size:22px;font-weight:850}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:6px 0 12px}
+.kv{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:9px 11px}
+.kv .k{color:var(--mut);font-size:11px}
+.kv .v{font-weight:700;font-size:14px;margin-top:1px}
+.links{display:flex;gap:8px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;background:var(--card2);
+  border:1px solid var(--line);padding:9px 13px;border-radius:11px;color:var(--txt)}
+.btn.go{background:linear-gradient(180deg,#3aa0ff,#2b7fe0);border-color:#2b7fe0;color:#04203f}
+.notes{margin-top:12px;font-size:12px;color:var(--mut);line-height:1.55;border-top:1px solid var(--line);padding-top:10px}
+.hidden{display:none}
+.leaflet-popup-content-wrapper{background:var(--bg2);color:var(--txt);border-radius:12px}
+.leaflet-popup-tip{background:var(--bg2)}
+.leaflet-popup-content{margin:9px;font-size:13px}
+.leaflet-popup-content img{width:100%;height:96px;object-fit:cover;border-radius:8px;margin-bottom:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><h1>Jersey Prime<span class="dot">.</span></h1><small id="sub"></small></div>
+  <div class="seg">
+    <button id="tabTable" class="on" onclick="show('table')">List</button>
+    <button id="tabMap" onclick="show('map')">Map</button>
+  </div>
+  <div class="search">
+    <svg viewBox="0 0 24 24"><path d="M10 2a8 8 0 105.3 14l5.4 5.4 1.4-1.4-5.4-5.4A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/></svg>
+    <input id="q" placeholder="Search property, road or agent…" oninput="render()" autocomplete="off"/>
+  </div>
+  <div class="controls">
+    <select id="parish" onchange="render()"><option value="">All parishes</option></select>
+    <select id="band" onchange="render()">
+      <option value="0">Any price</option><option value="2000000">£2m+</option>
+      <option value="3000000">£3m+</option><option value="5000000">£5m+</option>
+      <option value="10000000">£10m+</option><option value="20000000">£20m+</option>
+    </select>
+    <select id="sortby" onchange="render()">
+      <option value="date">Newest</option><option value="price">Price ↓</option>
+      <option value="pricea">Price ↑</option><option value="disc">Best discount</option>
+    </select>
+  </div>
+  <div class="chips">
+    <label class="fchip"><input type="checkbox" id="sea" onchange="tog(this)"/>🌊 Sea view</label>
+    <label class="fchip"><input type="checkbox" id="broch" onchange="tog(this)"/>📄 Brochure</label>
+    <label class="fchip"><input type="checkbox" id="ask" onchange="tog(this)"/>£ Asking</label>
+  </div>
+</header>
+<div class="stat" id="stat"></div>
+<main>
+  <div id="list"></div>
+  <div id="more"></div>
+  <div id="map" class="hidden"></div>
+</main>
+
+<dialog id="dlg"><div id="dlgc"></div></dialog>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+let DATA=[], view=[], shown=0, CHUNK=40, map=null, layer=null, mapReady=false;
+const $=id=>document.getElementById(id);
+const dlg=$("dlg");
+const esc=s=>(s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmtFull=n=>n==null?"—":"£"+Number(n).toLocaleString();
+const fmtM=n=>{if(n==null)return"—";const m=n/1e6;return "£"+(m>=10?m.toFixed(1):m.toFixed(2)).replace(/\.0+$/,"")+"m";};
+const dom=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch(e){return "link"}};
+
+fetch("data.json").then(r=>r.json()).then(d=>{
+  DATA=d.properties||[];
+  const tot=DATA.reduce((s,p)=>s+(p.sale_price||0),0);
+  $("sub").innerHTML=`${d.count} sales · £${(tot/1e9).toFixed(2)}bn<br>${d.generated}`;
+  [...new Set(DATA.map(p=>p.parish).filter(Boolean))].sort().forEach(p=>{
+    const o=document.createElement("option");o.value=o.textContent=p;$("parish").appendChild(o);});
+  render();
+}).catch(()=>{$("list").innerHTML='<p class="empty">Couldn’t load data.json — keep it beside index.html.</p>';});
+
+function tog(el){el.closest(".fchip").classList.toggle("on",el.checked);render();}
+
+function filtered(){
+  const q=$("q").value.toLowerCase().trim(), par=$("parish").value, band=+$("band").value;
+  const sea=$("sea").checked, br=$("broch").checked, ak=$("ask").checked;
+  let r=DATA.filter(p=>{
+    if(q){const h=[p.name,p.address,p.parish,p.agent].filter(Boolean).join(" ").toLowerCase();if(!h.includes(q))return false;}
+    if(par && p.parish!==par) return false;
+    if(band && (p.sale_price||0)<band) return false;
+    if(sea && !p.sea_view) return false;
+    if(br && !(p.brochures&&p.brochures.length)) return false;
+    if(ak && p.asking_price==null) return false;
+    return true;
+  });
+  const s=$("sortby").value;
+  r.sort((a,b)=> s==="price"?(b.sale_price||0)-(a.sale_price||0)
+    : s==="pricea"?(a.sale_price||0)-(b.sale_price||0)
+    : s==="disc"?((a.discount_pct==null?1e9:a.discount_pct)-(b.discount_pct==null?1e9:b.discount_pct))
+    : String(b.sale_date||"").localeCompare(String(a.sale_date||"")));
+  return r;
+}
+
+function pill(p){if(p.discount_pct==null)return"";const d=p.discount_pct;
+  return `<span class="pill ${d<0?"dn":"up"}">${d>0?"+":""}${d.toFixed(0)}%</span>`;}
+function tags(p){let t=[];
+  if(p.asking_display||p.asking_price!=null)t.push(`<span class="tag">ask ${esc(p.asking_display||fmtFull(p.asking_price))}</span>`);
+  if(p.size_sqft)t.push(`<span class="tag">${p.size_sqft.toLocaleString()} sqft</span>`);
+  if(p.bedrooms)t.push(`<span class="tag">${p.bedrooms} bed</span>`);
+  if(p.sea_view)t.push(`<span class="tag sea">🌊 sea</span>`);
+  if(p.agent)t.push(`<span class="tag gold">${esc(p.agent)}</span>`);
+  return t.join("");}
+const thumb=p=>p.image?`<img class="thumb" loading="lazy" src="${esc(p.image)}" onerror="this.outerHTML='<div class=\\'thumb ph\\'>🏠</div>'"/>`:`<div class="thumb ph">🏠</div>`;
+
+function cardHTML(p){const i=DATA.indexOf(p);return `
+  <div class="card" onclick="detail(${i})">${thumb(p)}
+   <div class="body">
+    <div class="row1">
+      <div style="min-width:0"><div class="nm">${esc(p.name)}</div>
+        <div class="pa">${esc(p.address||p.parish)} · ${esc(p.sale_date)}</div></div>
+      <div class="price"><div class="v">${esc(p.sale_display||fmtM(p.sale_price))}</div>
+        <div class="d">${pill(p)||""}</div></div>
+    </div>
+    <div class="tags">${tags(p)}</div>
+   </div></div>`;}
+
+function render(){
+  view=filtered(); shown=0;
+  const tot=view.reduce((s,p)=>s+(p.sale_price||0),0);
+  const ds=view.filter(p=>p.discount_pct!=null).map(p=>p.discount_pct).sort((a,b)=>a-b);
+  const med=ds.length?ds[Math.floor(ds.length/2)].toFixed(0)+"%":"—";
+  $("stat").innerHTML=`<span><b>${view.length}</b> shown</span><span><b>£${(tot/1e9).toFixed(2)}bn</b> total</span><span>median <b>${med}</b> vs ask</span>`;
+  $("list").innerHTML=""; more();
+  if(mapReady) drawMap(view);
+}
+function more(){
+  const slice=view.slice(shown,shown+CHUNK);
+  $("list").insertAdjacentHTML("beforeend", slice.map(cardHTML).join(""));
+  shown+=slice.length;
+  if(shown===0) $("list").innerHTML='<p class="empty">No matches — try clearing a filter.</p>';
+}
+new IntersectionObserver(es=>{if(es[0].isIntersecting && shown<view.length) more();}).observe($("more"));
+
+function detail(i){
+  const p=DATA[i];
+  const kv=(k,v)=>`<div class="kv"><div class="k">${k}</div><div class="v">${v}</div></div>`;
+  const facts=[
+    kv("Sold",esc(p.sale_display||fmtFull(p.sale_price))),
+    kv("Asking",esc(p.asking_display||fmtFull(p.asking_price))),
+    kv("vs asking",p.discount_pct==null?"—":(p.discount_pct>0?"+":"")+p.discount_pct.toFixed(1)+"%"),
+    kv("First listed",esc(p.first_listed||"—")),
+    kv("Size",p.size_sqft?p.size_sqft.toLocaleString()+" sqft":(p.acres?p.acres+" ac":"—")),
+    kv("Beds / Baths",`${p.bedrooms||"—"} / ${p.bathrooms||"—"}`),
+    kv("Parish",esc(p.parish||"—")),
+    kv("Sea view",p.sea_view?"🌊 Yes":"—"),
+  ];
+  const L=(u,t,c)=>`<a class="btn ${c||""}" href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
+  const links=[
+    p.listing_url?L(p.listing_url,"View listing","go"):"",
+    ...(p.brochures||[]).map(u=>L(u,"📄 "+dom(u))),
+    p.what3words?L("https://what3words.com/"+p.what3words,"/// "+esc(p.what3words)):"",
+    L(`https://www.google.com/maps?q=${p.lat},${p.lng}`,"📍 Map"),
+  ].filter(Boolean).join("");
+  $("dlgc").innerHTML=`
+    <div class="hero">
+      ${p.image?`<img src="${esc(p.image)}" onerror="this.parentNode.style.height='0'"><div class="fade"></div>`:""}
+      <button class="x" onclick="dlg.close()">×</button>
+      <div class="htxt"><h2>${esc(p.name)}</h2><div class="ha">${esc(p.address||p.parish)} · ${esc(p.sale_date)}</div></div>
+    </div>
+    <div class="dlg">
+      <div class="pricebar"><span class="big">${esc(p.sale_display||fmtFull(p.sale_price))}</span>${pill(p)}${p.agent?`<span class="tag gold" style="margin-left:auto">${esc(p.agent)}</span>`:""}</div>
+      <div class="grid">${facts.join("")}</div>
+      <div class="links">${links}</div>
+      ${p.notes?`<div class="notes">${esc(p.notes)}</div>`:""}
+    </div>`;
+  if(!p.image){$("dlgc").querySelector(".htxt").style.position="static";
+    $("dlgc").querySelector(".hero").style.padding="14px 16px 0";}
+  dlg.showModal();
+}
+dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close();});
+
+function show(t){
+  $("tabTable").classList.toggle("on",t==="table");
+  $("tabMap").classList.toggle("on",t==="map");
+  $("list").classList.toggle("hidden",t!=="table");
+  $("more").classList.toggle("hidden",t!=="table");
+  $("map").classList.toggle("hidden",t!=="map");
+  if(t==="map") initMap();
+}
+function initMap(){
+  if(map){map.invalidateSize();drawMap(view);return;}
+  map=L.map("map",{zoomControl:false}).setView([49.21,-2.13],11);
+  L.control.zoom({position:"bottomright"}).addTo(map);
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+    {maxZoom:19,attribution:"© OpenStreetMap © CARTO"}).addTo(map);
+  layer=L.layerGroup().addTo(map); mapReady=true; drawMap(view.length?view:filtered());
+}
+const radius=p=>Math.max(5,Math.min(28,Math.sqrt((p.sale_price||2e6)/1e6)*4));
+function drawMap(r){
+  if(!layer)return; layer.clearLayers();
+  r.forEach(p=>{if(p.lat==null)return;
+    const col=p.sea_view?"#56c2ff":"#e6c068";
+    const m=L.circleMarker([p.lat,p.lng],{radius:radius(p),color:col,weight:1,fillColor:col,fillOpacity:.6});
+    m.bindPopup((p.image?`<img src="${esc(p.image)}">`:"")+
+      `<b>${esc(p.name)}</b><br>${esc(p.sale_display||fmtM(p.sale_price))} · ${esc(p.sale_date||"")}`+
+      (p.asking_display?` <span style="color:#93a1be">(ask ${esc(p.asking_display)})</span>`:"")+
+      (p.listing_url?`<br><a href="${esc(p.listing_url)}" target="_blank">View listing →</a>`:""));
+    layer.addLayer(m);});
+}
+</script>
+</body>
+</html>
