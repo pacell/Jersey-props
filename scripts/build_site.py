@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from jersey_props import config, storage, geocode, source_meta          # noqa: E402
 from jersey_props.brochure import fetch_metrics, metrics_from_text  # noqa: E402
 
-SITE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "site")
+SITE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs")
 SEA_KW = ("bay", "aubin", "ouaisne", "ouaisné", "gorey", "rozel", "brelade",
           "corbiere", "corbière", "beach", "cliff", "coast", "sea", "mielles",
           "havre", "plage", "lecq", "bonne nuit", "bouley")

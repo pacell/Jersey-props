@@ -8,4 +8,4 @@ venv/
 # Derived listing image/coords cache
 data/source_meta_cache.json
 # Heavy downloaded brochure PDFs (archive only; site links remote URLs)
-site/brochures/
+docs/brochures/

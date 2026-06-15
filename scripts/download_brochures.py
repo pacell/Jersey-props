@@ -18,7 +18,7 @@ from jersey_props import config  # noqa: E402
 
 MANUAL = os.path.join(config.DATA_DIR, "manual_search.json")
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                   "site", "brochures")
+                   "docs", "brochures")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
 
