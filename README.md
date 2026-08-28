@@ -108,17 +108,6 @@ data/              # sold_2m_plus.*, *_enriched.*, manual_search.json
 REPORT.md          # generated analysis
 ```
 
-## Also in this repo
-
-`openrouter_stats/` + `scripts/openrouter_prices.py` are an unrelated one-off:
-they pull OpenRouter's historical **effective** token prices (what customers
-actually pay after caching and discounts, not the posted rate) for every model,
-plus the endpoint catalogue, token volumes, throughput/latency, reliability and
-benchmark scores, into `data/openrouter/`. Pulled and calculated values are
-split across `openrouter_stats/pull.py` and `openrouter_stats/derive.py`, and
-documented column by column in
-[`data/openrouter/README.md`](data/openrouter/README.md).
-
 ## Etiquette / legal
 
 Public transaction data for personal research; identifies as a normal browser
