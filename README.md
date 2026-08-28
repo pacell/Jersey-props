@@ -26,6 +26,13 @@ Standard-library only (Python 3.10+) — **zero `pip install`**.
   Plus brochures/listings for Maison d'Or, Le Val Lodge, Colline de Lavande,
   St. Mannelier, Beau Pré, The Grove. Full breakdown in **`REPORT.md`**.
 
+## Also in this repo
+
+**[Open Weights Index](OPEN_MODELS.md)** — an unrelated second dataset built on the
+same stdlib-only rules: the machine-format Hugging Face model card for the current
+release of every open-weights model, joined to its Artificial Analysis Intelligence
+Index score. `data/open_model_index.csv` · `site/open_models.html`
+
 ## How it works
 
 | Stage | Module | Source | Output |
