@@ -13,7 +13,7 @@ Same house rules as the property scraper — **standard library only**, no
 |------|------------|
 | `data/model_cards/<org>__<name>.json` | One raw card per model: the Hub's `/api/models/<repo>?full=true` document, the YAML front matter of the card README, and the repo's `config.json` |
 | `data/open_model_index.json` | The joined table, plus provenance and the list of models skipped for want of a readable card |
-| `data/open_model_index.csv` | The same table, flat, for spreadsheets |
+| `data/open_model_index.csv` | The same table, flat: 88 rows x 38 columns, one column per Intelligence Index component, ASCII headers |
 | `site/open_models.html` | Self-contained sortable/filterable page built from the JSON |
 
 ## Running it

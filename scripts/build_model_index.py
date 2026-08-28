@@ -27,12 +27,17 @@ from open_models import config, index                      # noqa: E402
 from open_models.artificial_analysis import fetch_catalogue  # noqa: E402
 from open_models.hf_cards import fetch_card                 # noqa: E402
 
+# Flat columns; the nine Intelligence Index components are appended after
+# these, one column each, so the CSV carries everything the JSON does bar the
+# raw cards themselves.
 CSV_COLUMNS = [
     "rank", "name", "creator", "country", "intelligence_index", "best_effort",
-    "params_billions", "active_params_billions", "context_window_tokens",
-    "license", "license_category", "openness_index", "reasoning",
-    "release_date", "hub_last_modified", "knowledge_cutoff", "architecture",
-    "modalities_in", "downloads_30d", "likes", "hf_repo", "hf_url",
+    "effort_spread", "agentic_index", "openness_index", "params_billions",
+    "active_params_billions", "context_window_tokens", "license", "license_url",
+    "license_category", "reasoning", "release_date", "hub_last_modified",
+    "knowledge_cutoff", "architecture", "pipeline_tag", "modalities_in",
+    "modalities_out", "downloads_30d", "likes", "aa_open_weights",
+    "intelligence_is_estimated", "hf_repo", "hf_url",
 ]
 
 
@@ -98,13 +103,21 @@ def main() -> int:
     with open(config.INDEX_JSON, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, indent=1, ensure_ascii=False)
 
+    # ASCII column names in the CSV so naive readers cope; the JSON keeps the
+    # evaluations under their proper names.
+    ascii_eval = {label: label.replace("\u03c4\u00b3", "tau3") for _, label, _ in index._EVAL_FIELDS}
+    eval_columns = list(ascii_eval.values())
     with open(config.INDEX_CSV, "w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=CSV_COLUMNS, extrasaction="ignore")
+        writer = csv.DictWriter(fh, fieldnames=CSV_COLUMNS + eval_columns,
+                                extrasaction="ignore")
         writer.writeheader()
         for rank, row in enumerate(rows, 1):
             d = row.as_dict()
             d["rank"] = rank
             d["modalities_in"] = "+".join(d["modalities_in"])
+            d["modalities_out"] = "+".join(d["modalities_out"])
+            d["effort_spread"] = " ".join(f"{k}={v}" for k, v in d["effort_spread"].items())
+            d.update({ascii_eval[k]: v for k, v in d.pop("evals").items()})
             writer.writerow(d)
 
     print(f"\nWrote {config.INDEX_JSON} and {config.INDEX_CSV} "
